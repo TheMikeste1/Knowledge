@@ -1,0 +1,13 @@
+{
+  "spellcheck": true,
+  "useTab": false,
+  "showLineNumber": true,
+  "foldIndent": true,
+  "foldHeading": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "spellcheckDictionary": [
+    "presidence"
+  ],
+  "attachmentFolderPath": "Spatial Filters/img"
+}
