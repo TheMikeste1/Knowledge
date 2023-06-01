@@ -7,5 +7,9 @@
   "obsidian-style-settings",
   "mermaid-tools",
   "obsidian-excalidraw-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-code-block-enhancer",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-mind-map",
+  "tag-wrangler"
 ]
