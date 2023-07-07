@@ -11,7 +11,7 @@ A tool that senses data/state.
 A tool that makes a decision on how to act, if at all.
 
 # Agent
-An automonous, intelligent entity in a system.
+An autonomous, intelligent entity in a system.
 
 Agents should enjoy the following RASP properties:
 - Reactivity
