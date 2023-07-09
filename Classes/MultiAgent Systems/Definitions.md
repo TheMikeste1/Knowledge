@@ -21,14 +21,14 @@ Agents should enjoy the following RASP properties:
 - Social ability
 	- Agents interact with other agents (and possible humans) via some kind of agent-communication language.
 - Proactiveness
-	- Agents do not simply act in response to their environment: They are able to exhibit goal-directed behaviour by taking initiative.
+	- Agents do not simply act in response to their environment: They are able to exhibit goal-directed behavior by taking initiative.
 
 # Rational agent
 An [[#Agent|agent]] the selects actions that maximize its expected [[#Utility|utility]].
 - Acts appropriately given goals and circumstances
 - Is flexible to changing environments and goals
 - Learns from experience
-- Makes approproiate choices given perceptual . . .
+- Makes appropriate choices given perceptual . . .
 
 # Risk Types
 ## Risk Seeking

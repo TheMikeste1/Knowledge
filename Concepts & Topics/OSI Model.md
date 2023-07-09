@@ -20,6 +20,7 @@ The physical layer handles transitions between the digital world and the physica
 - Digital bits to flashes of light
 
 # Layer 2 - Data Link
+
 | Addressing  | Data Unit |      Protocol Examples       |
 |:-----------:|:---------:|:----------------------------:|
 | MAC Address |   Frame   | Ethernet, WiFi, VLAN, DOCSIS |
@@ -32,6 +33,7 @@ The data link layer controls data transfer between two directly connected nodes,
 - Modem to switch
 
 # Layer 3 - Network
+
 | Addressing | Data Unit | Protocol Examples |
 |:----------:|:---------:|:-----------------:|
 | IP Address |  Packet   |     IP, IPsec     |
@@ -44,8 +46,9 @@ The network layer handles transferring information between nodes in multiple net
 - ISP network to separate ISP network
 
 # Layer 4 - Transport
-| Addressing |     Data Unit     |         Protocol Examples         |
-|:----------:|:-----------------:|:---------------------------------:|
+
+| Addressing |     Data Unit     |          Protocol Examples          |
+|:----------:|:-----------------:|:-----------------------------------:|
 |   Ports    | Segment, Datagram | #TCP, #UDP, TP0, TP1, TP2, TP3, TP4 |
 
 The transport layer works with transferring information from host to host, or end device to end device. It includes common protocols such as UDP, TCP, and COTP. It may segment data as required.
@@ -58,6 +61,7 @@ Similar to the [[#Layer 3 - Network|network layer]], protocols may or may not gu
 - Port to port
 
 # Layer 5 - Session
+
 | Addressing |   Data Unit    |           Protocol Examples            |
 |:----------:|:--------------:|:--------------------------------------:|
 |    N/A     | Data, Messages | Sockets, Pipes, session portion of TCP |
@@ -65,6 +69,7 @@ Similar to the [[#Layer 3 - Network|network layer]], protocols may or may not gu
 The session layer sets up, maintains, and tears down connections between one or more devices, dubbed sessions.
 
 # Layer 6 - Presentation
+
 | Addressing |   Data Unit    |     Protocol Examples     |
 |:----------:|:--------------:|:-------------------------:|
 |    N/A     | Data, Messages | SSL/TLS, XDR, ASCII, MPEG |
@@ -74,6 +79,7 @@ The presentation layer handles transforming data to be ready for transport or to
 Relating to application design models, this layer could be viewed as the repository or view-model layer in #MVVM.
 
 # Layer 7 - Application
+
 | Addressing |   Data Unit    |      Protocol Examples      |
 |:----------:|:--------------:|:---------------------------:|
 |    N/A     | Data, Messages | HTTP, FTP, SMTP, ACSE, ROSE |

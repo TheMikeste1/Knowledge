@@ -2,7 +2,6 @@
   "table-editor-obsidian",
   "dataview",
   "obsidian-latex-suite",
-  "quick-latex",
   "obsidian-minimal-settings",
   "obsidian-style-settings",
   "mermaid-tools",
@@ -11,5 +10,6 @@
   "obsidian-code-block-enhancer",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-mind-map",
-  "tag-wrangler"
+  "tag-wrangler",
+  "obsidian-map-view"
 ]

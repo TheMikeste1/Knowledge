@@ -45,6 +45,6 @@ After all convolution and pooling has been accomplished, the output it fed into 
 
 ### Why convolutional layers?
 #TODO: Finish this section. Slide 69 in 09
-Detect features like edge, shape, pattern, etc
+Detect features like edge, shape, pattern, etc.
 
 # Recurrent Neural Network
