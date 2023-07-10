@@ -1,0 +1,14 @@
+- [ ] Cherenkov radiation
+- [ ] Markov chain text generation
+- [ ] Quantum Computing
+  - [Qiskit](https://qiskit.org/)
+- [ ] Levenshtein Distance Ratio
+- [ ] Mars Cycling
+- [ ] Unity Ray Marching
+- [ ] Pipelines
+- [ ] CI/CD
+- [ ] Ethical programming
+- [ ] AI
+- [ ] Material Design
+- [ ] Reinforcement learning
+  - Genetic Algorithms
