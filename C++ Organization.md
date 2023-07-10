@@ -8,6 +8,7 @@ Objects in each category should be organized by interface first (e.g. the method
 - Interfaces
 - Structs
 - Classes
+- Constants
 - Variables
 - Macros
 - Functions
@@ -15,6 +16,7 @@ Objects in each category should be organized by interface first (e.g. the method
 - Namespaces (internally follows same structure as [[#Outside an object]])
 
 ## Inside an object and source file
+- Using/typedefs
 - Enums
 - Structs
 - Interfaces
