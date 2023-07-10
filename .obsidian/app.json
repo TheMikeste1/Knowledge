@@ -3,7 +3,8 @@
   "livePreview": true,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./res",
-  "showLineNumber": false,
+  "showLineNumber": true,
   "spellcheck": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "useTab": false
 }
