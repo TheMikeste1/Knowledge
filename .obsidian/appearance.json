@@ -3,5 +3,6 @@
   "cssTheme": "Things",
   "accentColor": "",
   "theme": "obsidian",
-  "translucency": false
+  "translucency": false,
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono"
 }
