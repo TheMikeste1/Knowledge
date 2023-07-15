@@ -12,3 +12,9 @@
 - [ ] Material Design
 - [ ] Reinforcement learning
   - Genetic Algorithms
+- [ ] Statistics
+- [ ] Physics
+- [ ] Combinatorics
+- [ ] Geometric Series
+- [ ] Haskell
+- [ ] Information Theory & Entropy
