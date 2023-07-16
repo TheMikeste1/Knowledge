@@ -1,3 +1,6 @@
+---
+tags: c++, programming
+---
 Based on https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1201.md
 
 Objects in each category should be organized by interface first (e.g. the methods for `IClickable` should be next to each other), then by group (e.g. the getter and setter for some field or property should be next to each other), then alphabetically.

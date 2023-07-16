@@ -1,3 +1,6 @@
+---
+tags: vscode, programming, tool
+---
 # Export
 Go to `%AppData%\Code\User` and copy `keybindings.json` and `settings.json`. You may want to copy your data in `snippets` and `profiles` as well.
 
