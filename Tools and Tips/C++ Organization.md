@@ -28,9 +28,9 @@ Objects in each category should be organized by interface first (e.g. the method
 - Constructors
 - Destructors
 - Properties
+- Fields
 - Methods
 - Operators
-- Fields
 - Friends (declared in the same structure as [[#Inside an object and source file]])
 
 Objects should first declare public, then protected, then private
