@@ -7,15 +7,9 @@ Go to `%AppData%\Code\User` and copy `keybindings.json` and `settings.json`. You
 To export the extensions, run
 ```bash
 # Bash
-code --list-extensions | tail -n +2 > extensions.txt
-```
-This works by having `code` print its extensions, removing the first line (to remove the header), and redirecting the output to `extensions.txt`.
-
-On Powershell, use
-```powershell
-# Powershell
 code --list-extensions > extensions.txt
 ```
+This works by having `code` print its extensions and redirecting the output to `extensions.txt`.
 
 # Import
 To import, copy the `keybindings.json` and `settings.json` (as well as `snippets` and `profiles`) to `%AppData%\Code\User`.

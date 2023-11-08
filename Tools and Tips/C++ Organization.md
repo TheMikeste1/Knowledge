@@ -1,5 +1,7 @@
 ---
-tags: c++, programming
+tags:
+  - c++
+  - programming
 ---
 Based on https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1201.md
 
