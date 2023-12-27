@@ -10,4 +10,4 @@ $$
 \end{array}
 $$
 
-$Q^\pi(s, a)$ is the estimated cumulitive reward, given the state $s$ and action $a$.
+$Q^\pi(s, a)$ is the estimated cumulative reward, given the state $s$ and action $a$.

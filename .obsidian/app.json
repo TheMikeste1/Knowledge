@@ -7,5 +7,6 @@
   "spellcheck": true,
   "showUnsupportedFiles": true,
   "useTab": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "vimMode": true
 }
