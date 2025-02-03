@@ -1,3 +1,7 @@
+---
+tags:
+  - computer-vision
+---
 High-pass filters enhance high frequency components and eliminate/reduce low frequency ones. The sum of all elements in a high-pass filter must be exactly 0. They must be symmetric about the center, but each element can be any value so long as symmetry is kept. They are often used to find edges or sharpen an image. They are the opposite of [[Low-pass Filters]].
 
 # Laplacian Filters

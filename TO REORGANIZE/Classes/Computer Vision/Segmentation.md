@@ -1,3 +1,7 @@
+---
+tags:
+  - computer-vision
+---
 Segmentation involves dividing an image into separate regions. Each pixel will be assigned to a region, and no region may share pixels.
 
 Each region must be uniform, meaning all its pixels fall within a certain range of color/gray-level intensities. The uniformity of a region can be calculated with

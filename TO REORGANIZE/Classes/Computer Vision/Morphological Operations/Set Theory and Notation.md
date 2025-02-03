@@ -1,3 +1,7 @@
+---
+tags:
+  - computer-vision
+---
 - Translation
 $A_x = \{ c | c = a + x, a \in A \}$
 - Reflection

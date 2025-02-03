@@ -1,3 +1,7 @@
+---
+tags:
+  - computer-vision
+---
 Low-pass  filters in the frequency domain primarily rely on the distance from the signal center.
 
 Note all these filters assume the transform has been [[Frequency Filters#Matlab|shifted to the center]].

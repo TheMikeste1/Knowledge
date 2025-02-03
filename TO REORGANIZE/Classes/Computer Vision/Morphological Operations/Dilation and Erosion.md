@@ -1,3 +1,7 @@
+---
+tags:
+  - computer-vision
+---
 Dilation and erosion are pattern matching operations; they don't necessarily modify the image.
 
 Dilation is when we're looking for hits, meaning any element of the pattern is matched. In Matlab, there is `imdilate`.

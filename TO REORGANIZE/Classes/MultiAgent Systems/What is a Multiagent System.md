@@ -3,7 +3,7 @@ Goals:
 - Cooperation
 - Task Sharing
 - Making Group Decisions
-- Forming Coalations
+- Forming Coalitions
 - Allocating resources
 - Bargaining
 - Arguing
