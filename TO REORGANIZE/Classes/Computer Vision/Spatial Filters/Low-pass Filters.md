@@ -21,7 +21,7 @@ $$
 $$
 
 ## Weighted Averaging Filters
-Weighted averaging filters can have different values in each position of the mask, allowing for certain pixels to have a larger presidence.
+Weighted averaging filters can have different values in each position of the mask, allowing for certain pixels to have a larger precedence.
 $$
 \frac1{16} \times
 \begin{bmatrix} 
