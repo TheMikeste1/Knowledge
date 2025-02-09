@@ -8,5 +8,6 @@
   "showUnsupportedFiles": true,
   "useTab": false,
   "readableLineLength": false,
-  "vimMode": true
+  "vimMode": true,
+  "showInlineTitle": false
 }
