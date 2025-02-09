@@ -9,5 +9,5 @@
   "useTab": false,
   "readableLineLength": false,
   "vimMode": true,
-  "showInlineTitle": false
+  "showInlineTitle": true
 }
