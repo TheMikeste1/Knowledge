@@ -4,4 +4,5 @@
 !.obsidian/plugins/*/data.json
 !.obsidian/plugins/*/manifest.json
 
-.obsidian/themes
+.obsidian/themes/*/*
+!.obsidian/themes/*/manifest.json
