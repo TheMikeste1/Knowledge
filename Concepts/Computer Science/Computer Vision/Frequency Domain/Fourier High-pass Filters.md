@@ -32,7 +32,7 @@ This image has been produced with an order of $n = 2$ cutoff $D_0 = 15$.
 ![[BLHFExample.png]]
 
 # Gaussian High-pass Filter
-The Gaussian Low-pass filter (GHPF) attempts to solve the same problem as the [[#Butterworth Low-pass Filter]] by gradually transitioning to values outside the desired range. It is defined as
+The Gaussian High-pass filter (GHPF) attempts to solve the same problem as the [[#Butterworth Low-pass Filter]] by gradually transitioning to values outside the desired range. It is defined as
 $$
 H(u, v) = 1 - e^{-D^2(u, v) \; / \; 2\sigma^2}
 $$
