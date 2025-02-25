@@ -14,7 +14,7 @@ TABLE WITHOUT ID
         )
     ) as Title, 
     genre as Genre, 
-    truncate(Description, 50) as Description, 
+    truncate(Description, 512) as Description, 
     date_published as "Date Published", author AS Author
 FROM "Books"
 WHERE times_read = 0 AND date_started = date("")

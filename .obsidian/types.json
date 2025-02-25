@@ -9,6 +9,7 @@
     "date_finished": "date",
     "times_read": "number",
     "genre": "multitext",
+    "urls": "multitext",
     "excalidraw-plugin": "text",
     "excalidraw-export-transparent": "checkbox",
     "excalidraw-mask": "checkbox",
