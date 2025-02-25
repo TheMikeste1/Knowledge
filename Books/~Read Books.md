@@ -12,7 +12,8 @@ TABLE WITHOUT ID
                 ) + 3
             )
         )
-    ) as Title, 
+    ) as Title,
+    type as Type,
     genre as Genre, 
     times_read as "Times Read", 
     date_finished as "Date Finished",

@@ -13,6 +13,7 @@ TABLE WITHOUT ID
             )
         )
     ) as Title, 
+    type as Type,
     genre as Genre, 
     truncate(Description, 512) as Description, 
     date_published as "Date Published", author AS Author
