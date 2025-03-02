@@ -10,9 +10,9 @@ genre:
   - technical
 times_read: 0
 date_first_finished: 
-date_last_read: 
+date_last_started: 
+date_last_finished: 
 currently_reading: false
-date_started: 
 date_finished: 
 urls:
   - http://spinroot.com/gerard/pdf/P10.pdf
