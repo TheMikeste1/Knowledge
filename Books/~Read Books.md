@@ -16,7 +16,7 @@ TABLE WITHOUT ID
     type as Type,
     genre as Genre, 
     times_read as "Times Read", 
-    date_finished as "Date Finished",
+    date_last_finished as "Date Last Finished",
     truncate(Thoughts, 512) as Thoughts, 
     truncate(Description, 128) as Description, 
     author AS Author

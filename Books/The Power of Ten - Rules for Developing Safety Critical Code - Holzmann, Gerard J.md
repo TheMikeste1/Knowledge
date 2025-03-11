@@ -8,12 +8,12 @@ date_published: 2006-06-01
 genre:
   - technology
   - technical
+  - software-engineering
 times_read: 0
 date_first_finished: 
 date_last_started: 
 date_last_finished: 
 currently_reading: false
-date_finished: 
 urls:
   - http://spinroot.com/gerard/pdf/P10.pdf
   - https://spinroot.com/p10/

@@ -15,7 +15,6 @@ date_first_finished: 2024-03-08
 date_last_started: 2023-12-29
 date_last_finished: 2024-03-08
 currently_reading: false
-date_started:
 urls:
 ---
 **Description**:: Lennox tackles humanity's attempt to create a "*Homo Deus*," meaning a god-like human. He primarily covers concerns on Artificial General Intelligence (AGI), making a distinction between it an "narrow" artificial intelligence that are common today. He attacks the idea and illustrates the futility (and danger) of attempting to make humans gods.
