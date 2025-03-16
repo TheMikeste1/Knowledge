@@ -3,6 +3,7 @@ tags:
   - software-design
 literature:
   - "[[Boolean blindness - R, Shreevatsa]]"
+  - "[[Boolean Blindness - Harper, Robert]]"
 ---
 "Boolean blindness" is refers to losing information about a state when using booleans or other uninformative data types. Since booleans can only indicate true or false, it is impossible to know what they mean without having additional context.
 
