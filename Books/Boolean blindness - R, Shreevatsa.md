@@ -1,0 +1,21 @@
+---
+tags:
+  - techonology
+  - software-design
+type: blog
+author: ", Shreevatsa R"
+date_published: 2015-01-31
+genre:
+  - technology
+  - software-engineering
+times_read: 1
+date_first_finished: 2025-03-15
+date_last_started: 2025-03-09
+date_last_finished: 2025-03-15
+currently_reading: false
+urls:
+  - https://shreevatsa.wordpress.com/2015/01/31/boolean-blindness/
+---
+**Description**:: Shreevatsa examines a concept called "boolean blindness," which describes some of the shortcomings of using booleans instead of more descriptive types. It is primarily an overview of the same-name [article by Robert Harper](https://existentialtype.wordpress.com/2011/03/15/boolean-blindness/).
+
+**Thoughts**:: Shreevasta does a good job summarizing boolean blindness and helps expose the reader to other resources for the idea. In particular, they help expound on the topic by providing resources explaining that the blindness is not strictly limited to booleans: it apples to any datatype that does not provide the appropriate amount of information to understand the context of the data.
