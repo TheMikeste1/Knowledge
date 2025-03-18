@@ -2,7 +2,5 @@
 
 .obsidian/plugins/*/*
 !.obsidian/plugins/*/data.json
-!.obsidian/plugins/*/manifest.json
 
 .obsidian/themes/*/*
-!.obsidian/themes/*/manifest.json
