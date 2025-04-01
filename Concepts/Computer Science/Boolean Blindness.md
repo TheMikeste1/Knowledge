@@ -32,9 +32,9 @@ enum class TaskResultRedux
 ```
 ^681fcb
 
-This provides additional information, and also indicates that not all failures are equal. Using booleans, all the programmer (and compiler) would know is whether or not the task failed. By encoding the possibilities into a type, both the programmer and compiler keep additional context about the result of the task and understand that not all errors are the same.
+This provides additional information, and additionally indicates that not all failures are equal. Using booleans, all the programmer (and compiler) would know is whether or not the task failed. By encoding the possibilities into a type, both the programmer and compiler keep additional context about the result of the task and understand that not all errors are the same.
 
-Encoding information into types also helps avoid illegal program states. For example, if a function returns an object but it might fail there are two main ways one might accomplish this using booleans: 
+Encoding information into types also helps avoid illegal program states. For example, if a function returns an object but it might fail there are two main ways one might accomplish this using booleans:
 1. Return a tuple of the boolean result and the resulting object
     ```cpp
     std::pair<bool, SomeObject> func(); // This could also return a pointer to the object
