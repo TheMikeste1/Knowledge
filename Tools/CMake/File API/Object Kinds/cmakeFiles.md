@@ -1,3 +1,7 @@
+---
+literature:
+  - https://cmake.org/cmake/help/latest/manual/cmake-file-api.7.html#object-kind-cmakefiles
+---
 The `cmakeFiles` object contains information about the CMake files used when configuring and generating the project. This includes the build and source paths, the `CMakeLists.txt`, and the `*.cmake` files. It also includes information about watched files, such as the globbed files.
 
 ```json

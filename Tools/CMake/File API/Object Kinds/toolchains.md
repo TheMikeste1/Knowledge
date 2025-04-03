@@ -1,3 +1,7 @@
+---
+literature:
+  - https://cmake.org/cmake/help/latest/manual/cmake-file-api.7.html#object-kind-toolchains
+---
 The `toolchains` object contains information about the toolchains to use when building. The toolchain information is stored in the `"toolchains"` array.
 
 Each entry contains the programming language the toolchain is for, information about the compiler, and optionally the source file extensions the entry will be used on. All information in the `"compiler"` field is optional. This includes the compiler path and version, as well as the ID (e.g. GNU, MSVC), and architecture `"target"`. The `"compiler"` object may also include an `"implicit"` member, which holds the include, link, and link framework directories, as well as the link libraries for the toolchain.

@@ -1,3 +1,7 @@
+---
+literature:
+  - https://cmake.org/cmake/help/latest/manual/cmake-file-api.7.html#object-kind-cache
+---
 The `cache` object contains information about the cached variables. The variables are described in the `"entries"` field as an array.
 
 ```json

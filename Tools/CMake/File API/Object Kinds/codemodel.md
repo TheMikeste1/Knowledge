@@ -1,3 +1,7 @@
+---
+literature:
+  - https://cmake.org/cmake/help/latest/manual/cmake-file-api.7.html#object-kind-codemodel
+---
 The `codemodel` provides information about the entire build system. It includes information about the different configurations, the projects, the targets, and the directories included in the build system.
 
 The first added field is the `"paths"` object. This includes the `"source"` path, which is the path to the top level of the CMake project. It also includes the `"build"` path, which is the top level of the build directory.
@@ -9,3 +13,65 @@ Each configuration contains a `"name"` and three arrays of objects:
 - `"projects"` with links to [[Project Object|project objects]]
 - `"targets"` with links to [[Target Object|target objects]]
 Each link is in the `"jsonFile"` field and is relative to the `codemodel` file. Additionally, each entry has some basic information about the object.
+
+```json
+{
+  "kind": "codemodel",
+  "version": { "major": 2, "minor": 8 },
+  "paths": {
+    "source": "/path/to/top-level-source-dir",
+    "build": "/path/to/top-level-build-dir"
+  },
+  "configurations": [
+    {
+      "name": "Debug",
+      "directories": [
+        {
+          "source": ".",
+          "build": ".",
+          "childIndexes": [ 1 ],
+          "projectIndex": 0,
+          "targetIndexes": [ 0 ],
+          "hasInstallRule": true,
+          "minimumCMakeVersion": {
+            "string": "3.14"
+          },
+          "jsonFile": "<file>"
+        },
+        {
+          "source": "sub",
+          "build": "sub",
+          "parentIndex": 0,
+          "projectIndex": 0,
+          "targetIndexes": [ 1 ],
+          "minimumCMakeVersion": {
+            "string": "3.14"
+          },
+          "jsonFile": "<file>"
+        }
+      ],
+      "projects": [
+        {
+          "name": "MyProject",
+          "directoryIndexes": [ 0, 1 ],
+          "targetIndexes": [ 0, 1 ]
+        }
+      ],
+      "targets": [
+        {
+          "name": "MyExecutable",
+          "directoryIndex": 0,
+          "projectIndex": 0,
+          "jsonFile": "<file>"
+        },
+        {
+          "name": "MyLibrary",
+          "directoryIndex": 1,
+          "projectIndex": 0,
+          "jsonFile": "<file>"
+        }
+      ]
+    }
+  ]
+}
+```

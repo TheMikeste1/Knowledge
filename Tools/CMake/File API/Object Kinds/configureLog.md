@@ -1,3 +1,7 @@
+---
+literature:
+  - https://cmake.org/cmake/help/latest/manual/cmake-file-api.7.html#object-kind-configurelog
+---
 The `configureLog` object contains the location and event kinds for the configure log generated using [`cmake-configure-log`](https://cmake.org/cmake/help/latest/manual/cmake-configure-log.7.html).
 
 ```json
