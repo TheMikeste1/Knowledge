@@ -8,5 +8,6 @@
       "key": "P"
     }
   ],
-  "editor:toggle-italics": []
+  "editor:toggle-italics": [],
+  "workspace:close": []
 }
