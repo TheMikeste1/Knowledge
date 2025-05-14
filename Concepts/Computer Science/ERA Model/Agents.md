@@ -1,7 +1,19 @@
-The Agents asset consists of components that operate within the [[Environment]], and that interact with [[Resources]] and other [[Agents]]. This could include
+The Agents category consists of assets that operate within the [[Environment]], and that interact with [[Resources]] and other [[Agents]]. This could include
 - Applications
 - Users
-- Scripts
-- Certain hardware components, such as a Bluetooth radio (or any other radio)
+- Scripts and script-like executables, such as executables like `grep` that perform a job then quit
+- Certain hardware components, such as a Bluetooth radio (or any other radio), or touch monitor
     - These hardware components interact with the system in some way
-    - Usually live in a different trust boundary since their input cannot necessarily be verified (e.g., I don't know for sure who's sending packets over the radio)
+    - They usually live in a different trust boundary since their source of input cannot necessarily be verified (e.g., I don't know intrinsically know who's sending packets over the radio)
+
+The [[Actions]] generally map to
+- [[Actions#^66b87c|Read]] => Read status or telemetry
+    - Read telemetry from applications, users, or hardware
+    - Read the output of a script or script-like executable
+- [[Actions#^3abd84|Write]] => Write to or modify
+    - Reconfigure an application's or hardware component's settings
+    - Modify a script
+- [[Actions#^56ffbc|Possess]] => Have the asset perform some action on behalf of the agent
+    - Command and control applications or hardware
+    - Write data to be processed by a hardware component (e.g., data to broadcast on a radio)
+    - Run a script or script-like executable

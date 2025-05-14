@@ -9,4 +9,4 @@ The ERA model recognizes five levels of privilege:
 4. Others'. The agent has access to its own components and the components of unrelated agents.
 5. Global. The agent has global access to all components in the system. ^66d59d
 
-Privilege is determined on a per-[[Actions|action]] basis. For example, a user might be able to read any script in the system, but not be able to execute any. This would mean the user has [[#^66d59d|global]] [[Actions#read|read]] privilege, but no (or [[#^49d7fb|none]]) execute privilege.
+Privilege is determined on a per-[[Actions|action]] basis. For example, a user might be able to read any script in the system, but not be able to execute any. This would mean the user has [[#^66d59d|global]] [[Actions#^66b87c|read]] privilege, but no (or [[#^49d7fb|none]]) [[Actions#^56ffbc|possess]] privilege.

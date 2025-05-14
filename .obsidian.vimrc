@@ -57,10 +57,13 @@ exmap tabprev obcommand workspace:previous-tab
 nmap gT :tabprev<CR>
 
 exmap focusRight obcommand editor:focus-right
-nmap <C-w>l :focusRight
+nmap <C-w>l :focusRight<CR>
 exmap focusLeft obcommand editor:focus-left
-nmap <C-w>h :focusLeft
+nmap <C-w>h :focusLeft<CR>
 exmap focusTop obcommand editor:focus-top
-nmap <C-w>k :focusTop
+nmap <C-w>k :focusTop<CR>
 exmap focusBottom obcommand editor:focus-bottom
-nmap <C-w>j :focusBottom
+nmap <C-w>j :focusBottom<CR>
+
+nnoremap Y yg$
+nnoremap p P

@@ -2,12 +2,21 @@
   "switcher:open": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
       "key": "P"
     }
   ],
   "editor:toggle-italics": [],
-  "workspace:close": []
+  "workspace:close": [],
+  "editor:toggle-checklist-status": [],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ]
 }
