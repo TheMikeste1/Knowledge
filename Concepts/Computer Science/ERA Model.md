@@ -35,7 +35,7 @@ S_\mathrm{interaction}(m, s_\mathrm{read}, s_\mathrm{write}, s_\mathrm{possess})
   m \times (s_\mathrm{read} + s_\mathrm{write} + s_\mathrm{possess})
 $$
 
-In other words, a simply scoring formula could be to sum the scores for each action and multiply by the asset's importance. Assuming the asset's importance is 1 and action/privilege scores are $\text{None} = 0$, $\text{Self} = 1$, $\text{Cohort} = 2$, $\text{Others} = 3$, $\text{Global} = 4$, the scores for the above [[#^b00882|interactions]] would be $\text{App1} = 1$ and $\text{User1} = 5$.
+In other words, a simply scoring formula could be to sum the scores for each action and multiply by the asset's importance. Assuming the asset's importance is 1 and action/privilege scores are $\text{None} = 0$, $\text{Self} = 1$, $\text{Cohort} = 2$, $\text{Others} = 3$, $\text{Global} = 4$, the scores for the above [[#^b00882|interactions]] would be:
 
 | Agent | Asset   | Score |
 | ----- | ------- | ----- |
