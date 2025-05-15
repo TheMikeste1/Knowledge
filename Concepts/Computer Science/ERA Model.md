@@ -7,10 +7,10 @@ ERA is a model that describes how much access an individual agent has in a syste
 
 ## Using ERA
 
-### Identify Assets
+### 1. Identify Assets
 To apply ERA, one starts by identifying the assets in the system and assigning them as an Environment, Resource, or Agent. Assets can be as general or as specific as desired. For example, one could use ERA to score each category as a whole, or drill down to more refined assets (such as individual applications in the Agents category) and score each of those. A more mid-level approach could be to group assets, such as all configuration files in a system. These approaches can be mixed and matched depending of the goals of the analysis. Assets can optionally be assigned an importance modifier, which indicates how essential, important, or otherwise in need of protection an asset is to the system. The larger the modifier, the more important.
 
-### Score Interactions
+### 2. Score Interactions
 Once assets have been identified, the actions each agent can take on each asset and the privilege for that action is tabulated and scored. For example, to document agents' interaction with the scripts on a computer, one might tabulate it as
 
 | Agent | Asset   | Read   | Write | Possess |
@@ -38,5 +38,5 @@ $$
 
 In other worse, a simply scoring formula could be to sum the values of the actions and multiply by the asset's importance. Assuming the asset's importance is 1 and action values are $\text{None} = 0$; $\text{Self} = 1$; $\text{Cohort} = 2$; $\text{Others} = 3$; $\text{Global} = 4$, the scores for the above [[#^b00882|interactions]] would be $\text{App1} = 1$ and $\text{User1} = 5$.
 
-### Score Access
+### 3. Score Access
 Once all interactions for an agent have been identified and scored,
