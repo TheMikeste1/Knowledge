@@ -15,28 +15,58 @@ Once assets have been identified, the actions each agent can take on each asset 
 
 | Agent | Asset   | Read   | Write | Possess |
 | ----- | ------- | ------ | ----- | ------- |
-| App1  | Scripts | None   | Self  | None    |
+| App1  | Scripts | Self   | Self  | None    |
 | User1 | Scripts | Others | Self  | Self    |
+| User1 | App1    | None   | None  | Self    |
+| App1  | Network | Self   | Self  | Self    |
+| App2  | Network | Self   | None  | None    |
 
 ^b00882
 
-Once an agent's interactions with different assets is identified, a score for each interaction can be assigned. This consists of two formulas: once to determine the score of an action, defined as #TODO, and a second to score the interaction, defined as #TODO. The scoring formulas themselves can be adapted to the analysis, but a simple ones could be
-
-#TODO
+Once an agent's interactions with different assets is identified, a score for each interaction can be assigned. This consists of two formulas. The first is to determine the score of an action, defined as $S_\mathrm{action}(a, p)$, where $a$ is the action and $p$ is the privilege for that action. The second calculates the score for the interaction, defined as $S_\mathrm{interaction}(m, s_\mathrm{read}, s_\mathrm{write}, s_\mathrm{possess})$, where $m$ is the importance modifier for the asset, and $s_\mathrm{a}$ is the score for action $\mathrm{a}$. The scoring formulas themselves can be adapted to the analysis, but a simple ones could be
 
 $$
-\DeclareMathOperator{\score}{score}
-\DeclareMathOperator{\interaction}{interaction}
-\DeclareMathOperator{\importance}{importance}
-\DeclareMathOperator{\asset}{asset}
-\DeclareMathOperator{\read}{read}
-\DeclareMathOperator{\write}{write}
-\DeclareMathOperator{\possess}{possess}
-
-\score_\interaction = \importance_\asset \times (v_\read + v_\write + v_\possess)
+S_\mathrm{action}(a, p) =
+  p
+  \text{, where } p \text{ is some numeric value for the privilege}
+$$
+$$
+S_\mathrm{interaction}(m, s_\mathrm{read}, s_\mathrm{write}, s_\mathrm{possess}) = 
+  m \times (s_\mathrm{read} + s_\mathrm{write} + s_\mathrm{possess})
 $$
 
-In other worse, a simply scoring formula could be to sum the values of the actions and multiply by the asset's importance. Assuming the asset's importance is 1 and action values are $\text{None} = 0$; $\text{Self} = 1$; $\text{Cohort} = 2$; $\text{Others} = 3$; $\text{Global} = 4$, the scores for the above [[#^b00882|interactions]] would be $\text{App1} = 1$ and $\text{User1} = 5$.
+In other words, a simply scoring formula could be to sum the scores for each action and multiply by the asset's importance. Assuming the asset's importance is 1 and action/privilege scores are $\text{None} = 0$, $\text{Self} = 1$, $\text{Cohort} = 2$, $\text{Others} = 3$, $\text{Global} = 4$, the scores for the above [[#^b00882|interactions]] would be $\text{App1} = 1$ and $\text{User1} = 5$.
+
+| Agent | Asset   | Score |
+| ----- | ------- | ----- |
+| App1  | Scripts | 2     |
+| User1 | Scripts | 5     |
+| User1 | App1    | 1     |
+| App1  | Network | 3     |
+| App2  | Network | 1     |
+
+^f7f277
 
 ### 3. Score Access
-Once all interactions for an agent have been identified and scored,
+Once all interactions for an agent have been identified and scored, it can be beneficial to obtain an overall access score for an individual agent. The function used to calculate the access score is defined as $S_\mathrm{access}(s_\mathrm{interactions})$, where $s_\mathrm{interactions}$ is the list of the interaction scores for the agent. From here, any aggregation method can be used. If focusing on the agent's potential to cause damage, it may be beneficial to use $S_\mathrm{access}(s_\mathrm{interactions}) = \sum{s_\mathrm{interactions}}$. This has the advantage of including all interactions for the agent as part of the score, but can cause an agent with many low-level interactions to overtake those with few, larger interactions. Alternatively, $S_\mathrm{access}(s_\mathrm{interactions}) = \max{s_\mathrm{interactions}}$ can help identify that most impactful interactions and agents. For example, using the [[#^f7f277|interaction score table]], we can calculate the following scores for each agent:
+
+| Agent | Aggregate Score | Max Score |
+| ----- | --------------- | --------- |
+| App1  | 5               | 3         |
+| App2  | 1               | 1         |
+| User1 | 6               | 5         |
+
+Scoring all agents' access allows teams to identify which agents need more protection and scrutiny, therefore directing work towards the agents with the highest potential for causing damage. Further work could extend access scoring to provide a "score inheritance" for agents that interact with other agents. E.g., User1 can possess App1, and so inherits App1's actions and privilege to some extent.
+
+### 4. Optionally Score Assets
+Thus far, all scoring has been focused on determining which agents have the highest access. However, we can also use ERA to identify which *assets* need securing.
+
+We can score an asset's accessibility using the same $S_\mathrm{access}(s_\mathrm{interactions}) = \sum{s_\mathrm{interactions}}$ formulas from earlier. However, this time $s_\mathrm{interactions}$ are the interactions associated with the *asset* instead of the *agent*. Again, using the [[#^f7f277|interaction score table]], we can calculate
+
+| Asset   | Aggregate Score | Max Score |
+| ------- | --------------- | --------- |
+| App1    | 1               | 1         |
+| Scripts | 7               | 5         |
+| Network | 4               | 3         |
+
+This score tells us which assets need securing, and allows teams to identify which assets might be too available, allowing teams to better secure them.

@@ -20,9 +20,6 @@ vnoremap <Down> gj
 nnoremap <Up> gk
 vnoremap <Up> gk
 
-inoremap <Down> <C-o>gj
-inoremap <Up> <C-o>gk
-
 exmap back obcommand app:go-back
 exmap forward obcommand app:go-forward
 nmap <C-o> :back<CR>
@@ -66,4 +63,4 @@ exmap focusBottom obcommand editor:focus-bottom
 nmap <C-w>j :focusBottom<CR>
 
 nnoremap Y yg$
-nnoremap p P
+xnoremap p P
