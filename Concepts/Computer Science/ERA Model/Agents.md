@@ -1,7 +1,7 @@
 The Agents category consists of assets that operate within the [[Environment]], and that interact with [[Resources]] and other [[Agents]]. This could include
 - Applications
 - Users
-- Scripts and script-like executables, such as executables like `grep` that perform a job then quit
+- Certain scripts and script-like executables that have additional interactions beyond what the agent using them has
 - Certain hardware components, such as a Bluetooth radio (or any other radio), or touch monitor
     - These hardware components interact with the system in some way
     - They usually live in a different trust boundary since their source of input cannot necessarily be verified (e.g., I don't know intrinsically know who's sending packets over the radio)

@@ -1,11 +1,12 @@
 The Resources category consists of assets that [[Agents]] can interact with, but that cannot directly interact with other assets. This could include individual assets such as
 - Files
 - The Network, both local and nonlocal
+- Certain scripts and script-like executables, such as executables like `grep` or `sed` that perform a job then quit but only inherit interactions from the agent using them
 - Certain hardware components, such as a speaker, GPU, or non-touch monitor
     - These hardware components do not interact with other assets
 
 The [[Actions]] generally map to
-- [[Actions#^66b87c|Read]] => Read contents or or receive messages
+- [[Actions#^66b87c|Read]] => Read contents or receive messages
     - Read the contents of a file
     - Receive messages from hardware or the network
 - [[Actions#^3abd84|Write]] => Write to or modify
