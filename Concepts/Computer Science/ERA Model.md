@@ -70,3 +70,6 @@ We can score an asset's accessibility using the same $S_\mathrm{access}(s_\mathr
 | Network | 4               | 3         |
 
 This score tells us which assets need securing, and allows teams to identify which assets might be too available, allowing teams to better secure them.
+
+### 5. Optional Graph the Access vs. Accessibility Scores
+If both an agent's access and accessibility is graded, the scores can be graphed to easily identify which agents have a lot of power and have a large attack surface. Alternatively, if some aggregation method is used to keep an agent's score inside bounds (such as by averaging the interactions), the scores can be put on something similar to a risk matrix to identify which agents need immediate action.
