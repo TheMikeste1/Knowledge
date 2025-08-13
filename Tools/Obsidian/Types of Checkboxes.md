@@ -5,7 +5,7 @@ These checkboxes are specifically supported by the Things theme
 
 # Basic
 
-- [ ] `[ ]`  Todo
+- [ ] `[ ]` Todo
 - [/] `[/]` Incomplete
 - [x] `[x]` Done
 - [-] `[-]` Canceled

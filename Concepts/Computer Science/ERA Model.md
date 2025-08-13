@@ -1,7 +1,7 @@
 ---
 tags:
   - self-designed
-  - software-security
+  - cyber-security
 ---
 ERA is a model that describes how much access an individual agent has in a system. "ERA" stands for [[Environment]], [[Resources]], and [[Agents]], which are the three asset categories identified in the model. Each category contains a set of **assets**, or **components**, such as the Network Resource. Agents, such as applications or users, are then graded according to the [[Actions]] they can perform on those assets and the level of [[Privilege]] they have for those actions. The actions and privilege from one agent to an asset is called an **interaction**. This model plays a critical role in identifying how much damage an agent can cause, and, by extension, how much effort should be dedicated towards securing that agent.
 
@@ -9,6 +9,8 @@ ERA is a model that describes how much access an individual agent has in a syste
 
 ### 1. Identify Assets
 To apply ERA, one starts by identifying the assets in the system and assigning them as an Environment, Resource, or Agent. Assets can be as general or as specific as desired. For example, one could use ERA to score each category as a whole, or drill down to more refined assets (such as individual applications in the Agents category) and score each of those. A more mid-level approach could be to group assets, such as all configuration files in a system. These approaches can be mixed and matched depending of the goals of the analysis. Assets can optionally be assigned an importance modifier, which indicates how essential, important, or otherwise in need of protection an asset is to the system. The larger the modifier, the more important.
+
+ERA can also be applied to one asset or agent at a time, in which case one can focus on the associated assets. Applying ERA in a sequential approach (i.e., one agent at a time) can help break up the work of identifying assets. However, a final ERA pass should be performed afterward to ensure no interactions were missed due to not listing an asset in an earlier iteration.
 
 ### 2. Score Interactions
 Once assets have been identified, the actions each agent can take on each asset and the privilege for that action is tabulated and scored. For example, to document agents' interaction with the scripts on a computer, one might tabulate it as

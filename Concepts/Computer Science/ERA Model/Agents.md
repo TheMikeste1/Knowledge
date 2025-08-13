@@ -17,3 +17,5 @@ The [[Actions]] generally map to
     - Command and control applications or hardware
     - Write data to be processed by a hardware component (e.g., data to broadcast on a radio)
     - Run a script or script-like executable
+
+A special note on possession: if some agent possesses another asset so completely that, though they are distinct assets, they are essentially the same, it may be best to treat them as a single asset. For example, if an Agent that has exclusive and complete access to the power supply it may be better to treat the Agent as if it *is* the power supply. This would mean all interactions going to/from the power supply would instead be directed at the Agent.
