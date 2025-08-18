@@ -12,7 +12,10 @@ The [[Actions]] generally map to
 - [[Actions#^3abd84|Write]] => Reconfigure the asset
     - Change user permissions
     - Update firewall rules
+    - Report the level of hardware power
 - [[Actions#^56ffbc|Possess]] => Take on the role of the asset
     - Be the firewall
     - Be the source of authority for permissions 
     - Control hardware power
+        - Setting power levels
+        - Turning hardware on of off
