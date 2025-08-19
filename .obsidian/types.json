@@ -53,6 +53,7 @@
     "BC-ignore-in-edges": "checkbox",
     "BC-ignore-out-edges": "checkbox",
     "literature": "multitext",
-    "excalidraw-embed-md": "checkbox"
+    "excalidraw-embed-md": "checkbox",
+    "date_last_finished": "date"
   }
 }
