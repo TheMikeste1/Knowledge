@@ -6,6 +6,7 @@ type: paper
 author: Holzmann, Gerard J
 date_published: 2006-06-01
 genre:
+  - nonfiction
   - technology
   - technical
   - software-engineering
@@ -17,5 +18,6 @@ currently_reading: false
 urls:
   - http://spinroot.com/gerard/pdf/P10.pdf
   - https://spinroot.com/p10/
+short_description: Holzmann from NASA/JPL lays out JPL's safety-critical coding guidelines used to develop rocket software.
 ---
 **Description**:: "Most serious software development projects use coding guidelines." Holzmann from NASA/JPL lays out JPL's safety-critical coding guidelines used to develop rocket software, and should be used in other critical applications.

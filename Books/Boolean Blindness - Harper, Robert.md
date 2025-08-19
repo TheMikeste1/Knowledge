@@ -6,6 +6,7 @@ type: blog
 author: Harper, Robert
 date_published: 2011-03-15
 genre:
+  - nonfiction
   - technology
   - software-engineering
 times_read: 1
@@ -15,6 +16,7 @@ date_last_finished: 2025-03-15
 currently_reading: false
 urls:
   - https://existentialtype.wordpress.com/2011/03/15/boolean-blindness/
+short_description: Harper explains "boolean blindness" and its effects on software.
 ---
 **Description**:: Harper starts his writing exclaiming, "I hate Booleans!" He goes on to explain a concept called "[[Boolean Blindness|boolean blindness]]," a term coined by [Dan Licata](https://www.cs.cmu.edu/~15150/previous-semesters/2012-spring/resources/lectures/09.pdf), and how it can be detrimental to code and programs. Along the way, he identifies the difference between two different types of computer scientists: logicians, who are "concerned with languages and semantics," and combinatorialists, who are "concerned with algorithms and complexity."
 

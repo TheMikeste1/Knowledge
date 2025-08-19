@@ -1,0 +1,75 @@
+filters:
+  and:
+    - file.path.startsWith("Books")
+    - '!file.name.startsWith("~")'
+formulas:
+  Title: link(file, file.name.split(" - ").slice(0, -1).join(" - "))
+properties:
+  note.times_read:
+    displayName: Times Read
+  note.genre:
+    displayName: Genre
+  note.type:
+    displayName: Type
+  note.author:
+    displayName: Author
+  note.date_last_finished:
+    displayName: Last Finished
+  note.short_description:
+    displayName: Short Description
+  note.date_published:
+    displayName: Published
+views:
+  - type: table
+    name: Read Books
+    filters:
+      and:
+        - times_read >= 1
+    order:
+      - formula.Title
+      - type
+      - genre
+      - times_read
+      - date_last_finished
+      - short_description
+      - author
+    sort:
+      - property: formula.Title
+        direction: ASC
+      - property: author
+        direction: ASC
+    columnSize:
+      formula.Title: 150
+      note.type: 60
+      note.genre: 200
+      note.times_read: 100
+      note.date_last_finished: 110
+      note.short_description: 470
+      note.author: 80
+    rowHeight: medium
+  - type: table
+    name: Unread Books
+    filters:
+      or:
+        - times_read == 0
+        - times_read.isEmpty()
+    order:
+      - formula.Title
+      - type
+      - genre
+      - short_description
+      - date_published
+      - author
+    sort:
+      - property: formula.Title
+        direction: ASC
+      - property: author
+        direction: ASC
+    columnSize:
+      formula.Title: 150
+      note.type: 60
+      note.genre: 200
+      note.short_description: 470
+      note.date_published: 110
+      note.author: 80
+    rowHeight: medium

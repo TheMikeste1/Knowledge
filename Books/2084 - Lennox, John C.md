@@ -8,6 +8,7 @@ type: book
 author: Lennox, John C
 date_published: 2020-11-27
 genre:
+  - nonfiction
   - religion
   - technology
 times_read: 1
@@ -16,6 +17,7 @@ date_last_started: 2023-12-29
 date_last_finished: 2024-03-08
 currently_reading: false
 urls:
+short_description: Lennox tackles humanity's attempt to create a "Homo Deus."
 ---
 **Description**:: Lennox tackles humanity's attempt to create a "*Homo Deus*," meaning a god-like human. He primarily covers concerns on Artificial General Intelligence (AGI), making a distinction between it an "narrow" artificial intelligence that are common today. He attacks the idea and illustrates the futility (and danger) of attempting to make humans gods.
 
