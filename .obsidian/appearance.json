@@ -1,8 +1,8 @@
 {
+  "accentColor": "",
   "baseFontSize": 16,
   "cssTheme": "Things",
-  "accentColor": "",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
   "theme": "obsidian",
-  "translucency": false,
-  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono"
+  "translucency": false
 }

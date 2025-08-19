@@ -1,8 +1,8 @@
 {
-  "search": false,
+  "bookmarks": false,
   "editor": false,
   "file-explorer": false,
   "graph": false,
-  "bookmarks": false,
+  "search": false,
   "tag-wrangler:tag-pane": false
 }

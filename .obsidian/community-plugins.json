@@ -1,18 +1,14 @@
 [
-  "table-editor-obsidian",
-  "dataview",
-  "obsidian-latex-suite",
-  "obsidian-style-settings",
-  "mermaid-tools",
-  "obsidian-excalidraw-plugin",
-  "obsidian-code-block-enhancer",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-mind-map",
-  "tag-wrangler",
-  "obsidian-map-view",
-  "obsidian-vimrc-support",
-  "breadcrumbs",
+  "dataview",
+  "folder-notes",
   "harper",
+  "obsidian-code-block-enhancer",
   "obsidian-git",
-  "folder-notes"
+  "obsidian-map-view",
+  "obsidian-mind-map",
+  "obsidian-style-settings",
+  "obsidian-vimrc-support",
+  "table-editor-obsidian",
+  "tag-wrangler"
 ]

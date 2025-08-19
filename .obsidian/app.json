@@ -1,15 +1,8 @@
 {
-  "legacyEditor": false,
-  "livePreview": true,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./res",
-  "showLineNumber": true,
-  "spellcheck": true,
-  "showUnsupportedFiles": true,
-  "useTab": false,
-  "readableLineLength": false,
-  "vimMode": true,
-  "showInlineTitle": true,
+  "legacyEditor": false,
+  "livePreview": true,
   "promptDelete": false,
   "pdfExportSettings": {
     "includeName": true,
@@ -17,5 +10,12 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 80
-  }
+  },
+  "readableLineLength": false,
+  "showInlineTitle": true,
+  "showLineNumber": true,
+  "showUnsupportedFiles": true,
+  "spellcheck": true,
+  "useTab": false,
+  "vimMode": true
 }

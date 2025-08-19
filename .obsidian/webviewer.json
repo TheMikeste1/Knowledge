@@ -1,5 +1,5 @@
 {
-  "openExternalURLs": true,
   "enableAdblocking": true,
+  "openExternalURLs": true,
   "searchEngine": "google"
 }
