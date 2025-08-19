@@ -1,6 +1,6 @@
 ---
 tags:
-  - c++
+  - cpp
   - programming
 ---
 Based on <https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1201.md>

@@ -1,7 +1,7 @@
 - [ ] Cherenkov radiation
 - [ ] Markov chain text generation
 - [ ] Quantum Computing
-  - [Qiskit](https://qiskit.org/)
+- [ ] [Qiskit](https://qiskit.org/)
 - [ ] Levenshtein Distance Ratio
 - [ ] Mars Cycling
 - [ ] Unity Ray Marching

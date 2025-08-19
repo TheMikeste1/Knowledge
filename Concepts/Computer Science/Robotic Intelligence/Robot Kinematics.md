@@ -1,4 +1,4 @@
-Rules of thumb: try to stary within 80% of your workspace limits.
+Rules of thumb: try to stay within 80% of your workspace limits.
 
 ## Revolute Robot
 ![[revolute_robot.png]]

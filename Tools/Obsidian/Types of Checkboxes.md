@@ -1,5 +1,8 @@
 ---
-tags: obsidianmd, markdown, theme/Things
+tags:
+  - markdown
+  - obsidianmd
+  - theme/Things
 ---
 These checkboxes are specifically supported by the Things theme
 
