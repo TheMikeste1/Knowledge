@@ -8,7 +8,6 @@ type: book
 author: Lennox, John C
 date_published: 2020-11-27
 genre:
-  - nonfiction
   - religion
   - technology
 times_read: 1

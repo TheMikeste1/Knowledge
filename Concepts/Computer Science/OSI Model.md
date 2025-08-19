@@ -1,7 +1,7 @@
 ---
 tags: OSI
 ---
-The Open System Interconnection (abbr.  #OSI) model is a conceptual model used to organize and abstract away sending information between devices. It consists of seven layers, the last three of which are often combined into one in other similar models.
+The Open System Interconnection (abbr. #OSI) model is a conceptual model used to organize and abstract away sending information between devices. It consists of seven layers, the last three of which are often combined into one in other similar models.
 ![[OSI_model.png|128]]
 Each layer uses a protocol to structure and encode data. There are multiple protocols per layer, and each protocol has different advantages and disadvantages. These protocols may include error correction, encryption, delivery assurance, or other functions.
 

@@ -6,7 +6,6 @@ type: blog
 author: R, Shreevatsa
 date_published: 2015-01-31
 genre:
-  - nonfiction
   - technology
   - software-engineering
 times_read: 1

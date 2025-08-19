@@ -6,7 +6,6 @@ type: blog
 author: Harper, Robert
 date_published: 2011-03-15
 genre:
-  - nonfiction
   - technology
   - software-engineering
 times_read: 1

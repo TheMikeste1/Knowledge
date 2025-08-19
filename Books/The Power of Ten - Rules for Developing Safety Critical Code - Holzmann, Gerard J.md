@@ -6,14 +6,13 @@ type: paper
 author: Holzmann, Gerard J
 date_published: 2006-06-01
 genre:
-  - nonfiction
   - technology
   - technical
   - software-engineering
 times_read: 0
-date_first_finished: 
-date_last_started: 
-date_last_finished: 
+date_first_finished:
+date_last_started:
+date_last_finished:
 currently_reading: false
 urls:
   - http://spinroot.com/gerard/pdf/P10.pdf
