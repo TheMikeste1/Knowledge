@@ -5,6 +5,12 @@ The Environment category consists of assets that affect the system in which an [
 - CPU/Memory limits
 - Hardware availability, such as by toggling power for it on and off
 
+[[Actions]] for these types of assets can usually be expressed as either
+- Read, update, and become
+    - This is often useful for software components, such as the firewall
+- Read, report, and control
+    - This is often useful for hardware components, such as temperature sensors
+
 The [[Actions]] generally map to
 - [[Actions#^66b87c|Read]] => Read the status of the asset
     - Read user permissions
