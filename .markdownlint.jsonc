@@ -1,9 +1,11 @@
 {
   "default": true,
   "MD013": {
-    "line_length": 240,
+    "line_length": 4096,
     "tables": false,
     "stern": true,
-    "strict": false
-  }
+    "strict": false,
+  },
+  "ul-indent": { "indent": 4 },
+  "first-line-h1": false,
 }
