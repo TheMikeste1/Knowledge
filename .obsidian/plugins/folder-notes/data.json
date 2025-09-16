@@ -58,14 +58,15 @@
   "useSubmenus": true,
   "syncMove": true,
   "frontMatterTitle": {
-    "enabled": true,
+    "enabled": false,
     "explorer": true,
     "path": true
   },
   "settingsTab": "path",
   "supportedFileTypes": [
     "md",
-    "canvas"
+    "canvas",
+    "base"
   ],
   "boldName": false,
   "boldNameInPath": false,
