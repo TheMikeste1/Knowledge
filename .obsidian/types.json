@@ -17,6 +17,7 @@
     "times_read": "number",
     "up": "multitext",
     "urls": "multitext",
-    "links": "multitext"
+    "links": "multitext",
+    "coauthors": "multitext"
   }
 }

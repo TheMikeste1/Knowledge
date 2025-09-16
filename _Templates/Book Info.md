@@ -2,6 +2,7 @@
 tags:
 type: book
 author:
+coauthors:
 date_published:
 genre:
 times_read: 0

@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.path.startsWith("Books")
+    - file.folder.startsWith("Books")
     - '!file.name.startsWith("~")'
 formulas:
   Title: link(file, file.name.split(" - ").slice(0, -1).join(" - "))
@@ -19,6 +19,8 @@ properties:
     displayName: Short Description
   note.date_published:
     displayName: Published
+  note.coauthors:
+    displayName: Coauthors
 views:
   - type: table
     name: Read Books
@@ -33,6 +35,7 @@ views:
       - date_last_finished
       - short_description
       - author
+      - coauthors
     sort:
       - property: formula.Title
         direction: ASC
@@ -45,7 +48,7 @@ views:
       note.times_read: 100
       note.date_last_finished: 110
       note.short_description: 470
-      note.author: 80
+      note.author: 128
     rowHeight: medium
   - type: table
     name: Unread Books
@@ -60,6 +63,7 @@ views:
       - short_description
       - date_published
       - author
+      - coauthors
     sort:
       - property: formula.Title
         direction: ASC
@@ -71,5 +75,5 @@ views:
       note.genre: 200
       note.short_description: 470
       note.date_published: 110
-      note.author: 80
+      note.author: 128
     rowHeight: medium
