@@ -19,4 +19,4 @@ urls:
   - https://spinroot.com/p10/
 short_description: Holzmann from NASA/JPL lays out JPL's safety-critical coding guidelines used to develop rocket software.
 ---
-**Description**:: "Most serious software development projects use coding guidelines." Holzmann from NASA/JPL lays out JPL's safety-critical coding guidelines used to develop rocket software, and should be used in other critical applications.
+**Abstract**:: "Most serious software development projects use coding guidelines." Holzmann from NASA/JPL lays out JPL's safety-critical coding guidelines used to develop rocket software, and should be used in other critical applications.

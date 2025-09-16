@@ -13,8 +13,8 @@ currently_reading: false
 urls:
 short_description:
 ---
-**Description**:: 
+**Abstract**:: 
 
-**Summary**:: 
+**Notes**:: 
 
 **Thoughts**:: 
