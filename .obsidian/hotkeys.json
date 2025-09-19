@@ -1,12 +1,5 @@
 {
-  "switcher:open": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "P"
-    }
-  ],
+  "switcher:open": [],
   "editor:toggle-italics": [],
   "workspace:close": [],
   "editor:toggle-checklist-status": [],
@@ -15,6 +8,14 @@
       "modifiers": [
         "Mod",
         "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open": [
+    {
+      "modifiers": [
+        "Mod"
       ],
       "key": "P"
     }
