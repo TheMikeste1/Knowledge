@@ -1,4 +1,5 @@
 .obsidian/workspace*
+.obsidian/graph.json
 
 .obsidian/plugins/*/*
 !.obsidian/plugins/*/data.json

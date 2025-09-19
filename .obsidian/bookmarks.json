@@ -1,3 +1,60 @@
 {
-  "items": []
+  "items": [
+    {
+      "type": "graph",
+      "ctime": 1758303311893,
+      "title": "All Graph",
+      "options": {
+        "collapse-filter": true,
+        "search": "",
+        "showTags": true,
+        "showAttachments": true,
+        "hideUnresolved": false,
+        "showOrphans": true,
+        "collapse-color-groups": false,
+        "colorGroups": [
+          {
+            "query": "path:Concepts",
+            "color": {
+              "a": 1,
+              "rgb": 14725458
+            }
+          },
+          {
+            "query": "path:Books",
+            "color": {
+              "a": 1,
+              "rgb": 1997068
+            }
+          },
+          {
+            "query": "path:Learning Journal",
+            "color": {
+              "a": 1,
+              "rgb": 14701276
+            }
+          },
+          {
+            "query": "path:Tools",
+            "color": {
+              "a": 1,
+              "rgb": 5396192
+            }
+          }
+        ],
+        "collapse-display": false,
+        "showArrow": true,
+        "textFadeMultiplier": 0,
+        "nodeSizeMultiplier": 1,
+        "lineSizeMultiplier": 1,
+        "collapse-forces": false,
+        "centerStrength": 0.581196581196581,
+        "repelStrength": 11.965811965812,
+        "linkStrength": 1,
+        "linkDistance": 279,
+        "scale": 0.7714929225650256,
+        "close": false
+      }
+    }
+  ]
 }
