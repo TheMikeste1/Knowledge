@@ -18,6 +18,7 @@
     "up": "multitext",
     "urls": "multitext",
     "links": "multitext",
-    "coauthors": "multitext"
+    "coauthors": "multitext",
+    "location": "multitext"
   }
 }
