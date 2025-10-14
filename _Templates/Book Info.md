@@ -1,7 +1,7 @@
 ---
 tags:
-type: book
-author:
+type: "{{VALUE:DOCUMENT_TYPE}}"
+author: "{{VALUE:AUTHOR_LAST_NAME}}, {{VALUE:AUTHOR_FIRST_NAME}}"
 coauthors:
 date_published:
 genre:

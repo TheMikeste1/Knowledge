@@ -4,7 +4,7 @@
       "id": "4f7764da-c9c4-4891-b2ba-f704399e5a53",
       "name": "Fleeting",
       "type": "Template",
-      "command": false,
+      "command": true,
       "templatePath": "_Templates/Quick Note.md",
       "fileNameFormat": {
         "enabled": false,
@@ -31,39 +31,66 @@
       "setFileExistsBehavior": false
     },
     {
-      "id": "116e4e94-4be5-4e98-b40c-84f83fbce89b",
-      "name": "Book",
-      "type": "Template",
-      "command": false,
-      "templatePath": "_Templates/Book Info.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "Title - LastName, Name"
-      },
-      "folder": {
-        "enabled": false,
-        "folders": [],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFile": false,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "mode": "default",
-        "focus": true
-      },
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "id": "ea7d7dd1-82af-4351-a154-03b238f62e95",
+      "name": "Create new book",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Create new book",
+        "id": "264dbeec-d76c-4faf-966c-7391812d27cc",
+        "commands": [
+          {
+            "name": "getBookInfo",
+            "type": "UserScript",
+            "id": "292e03d6-4612-4900-b500-39ac32eb93ec",
+            "path": "_Templates/getBookInfo.js",
+            "settings": {}
+          },
+          {
+            "name": "Book",
+            "type": "NestedChoice",
+            "id": "153d9b3d-d342-41dd-801e-6a81d52625a4",
+            "choice": {
+              "id": "116e4e94-4be5-4e98-b40c-84f83fbce89b",
+              "name": "Book",
+              "type": "Template",
+              "command": false,
+              "templatePath": "_Templates/Book Info.md",
+              "fileNameFormat": {
+                "enabled": true,
+                "format": "{{VALUE:BOOK_NAME}} - {{VALUE:AUTHOR_LAST_NAME}}, {{VALUE:AUTHOR_FIRST_NAME}}"
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "Books"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFile": true,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "mode": "default",
+                "focus": true
+              },
+              "fileExistsMode": "Increment the file name",
+              "setFileExistsBehavior": false
+            }
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "",
+  "templateFolderPath": "_Templates",
   "announceUpdates": true,
-  "version": "2.4.0",
+  "version": "2.5.0",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
