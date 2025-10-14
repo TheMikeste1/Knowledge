@@ -3,19 +3,20 @@
   "editor:toggle-italics": [],
   "workspace:close": [],
   "editor:toggle-checklist-status": [],
-  "command-palette:open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "P"
-    }
-  ],
+  "command-palette:open": [],
   "darlal-switcher-plus:switcher-plus:open": [
     {
       "modifiers": [
         "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-commands": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
       ],
       "key": "P"
     }
