@@ -1,3 +1,4 @@
 [submodule "Private"]
 	path = Private
 	url = git@github.com:TheMikeste1/Private-Knowledge.git
+	branch = master
