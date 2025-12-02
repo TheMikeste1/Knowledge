@@ -77,6 +77,8 @@ Interestingly, since `o` doesn't start with a balance, `o.balance` will return `
 >
 > As such, `table`s and other similar objects should be copied and assigned as part of `new` instead of relying on the base instance.
 
+^cff43c
+
 ## Inheritance and overriding methods
 
 Inheritance in Lua is trivia. Simply create a `new` instance of the parent class:
@@ -85,7 +87,63 @@ Inheritance in Lua is trivia. Simply create a `new` instance of the parent class
 SpecialAccount = Account:new()
 ```
 
-Now, when `SpecialAccount:new` is called, `self` refers to `SpecialAccount`, meaning we got `new` for free. `SpecialAccount` can add additional methods as desired, and parent methods can still be accessed just like on normal instances. Overriding methods is also simple: just shadow the old version with a new function:
+Now, when `SpecialAccount:new` is called, `self` refers to `SpecialAccount`, meaning we got `new` for free. If `new` needs to be changed, it can be done like so:
+
+```lua
+function SpecialAccount:new(o)
+  o = Account.new(self, o)
+  -- Other changes. . .
+  return o
+end
+```
+
+> [!WARNING]
+> Be careful when setting defaults with inheritance! for mutable objects! Since `Account.new` sets the index, any changes made *after* the `Account.new` call will use `SpecialAccount` as the index. This may cause unintended problems when dealing with [[#^cff43c|mutable types]]:
+>
+> Don't do this:
+>
+> ```lua
+> JointAccount = Account:new({
+>   additional_owners = {}
+> })
+>
+> function JointAccount:new(o)
+>     Account.new(self, o)
+>     o.additional_owners = o.additional_owners or {} -- Will always use `o.additional_owners` because we're the index. Worse, the referred-to `additional_owners` is the prototype's! This will cause all instances to share the same table.
+>     return o
+> end
+> ```
+>
+> Instead, do this:
+>
+> ```lua
+> JointAccount = Account:new({
+>   additional_owners = {}
+> })
+>
+> function JointAccount:new(o)
+>     o = o or {}
+>     o.additional_owners = o.additional_owners or {} -- Skip the problem entirely, though it technically causes you to construct your classes in reverse order
+>     Account.new(self, o)
+>     return o
+> end
+> ```
+>
+> Or this:
+>
+> ```lua
+> JointAccount = Account:new({
+>   additional_owners = nil -- Skip setting a default; not always desirable since it communicates less
+> })
+>
+> function JointAccount:new(o)
+>     Account.new(self, o)
+>     o.additional_owners = o.additional_owners or {} -- Should now be good
+>     return o
+> end
+> ```
+
+`SpecialAccount` can add additional methods as desired, and parent methods can still be accessed just like on normal instances. Overriding methods is also simple: just shadow the old version with a new function:
 
 ```lua
 function SpecialAccount:withdraw(value)
