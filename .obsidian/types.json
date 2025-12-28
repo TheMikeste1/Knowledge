@@ -7,17 +7,12 @@
     "date_last_read": "date",
     "date_published": "date",
     "date_started": "date",
-    "down": "multitext",
     "genre": "multitext",
     "literature": "multitext",
-    "next": "multitext",
-    "prev": "multitext",
-    "same": "multitext",
     "tags": "tags",
     "times_read": "number",
-    "up": "multitext",
     "urls": "multitext",
-    "links": "multitext",
+    "related": "multitext",
     "coauthors": "multitext",
     "location": "multitext"
   }

@@ -1,5 +1,5 @@
 ---
-links:
+related:
   - "[[Concepts/Computer Science/Design Patterns/Template]]"
 ---
 ## With Strategy Pattern
