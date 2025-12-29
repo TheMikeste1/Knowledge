@@ -63,4 +63,4 @@ exmap focusBottom obcommand editor:focus-bottom
 nmap <C-w>j :focusBottom<CR>
 
 nnoremap Y yg$
-nnoremap p P
+vnoremap p P
