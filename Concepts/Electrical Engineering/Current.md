@@ -12,7 +12,7 @@ We measure current by observing how many charges, regardless of the sign of the 
 
 Positive current flows in the direction of positive charges. Said another way, positive current flows in the direction opposite to which the electrons are flowing. For example, if ten electrons are moving to the left, we say there is a positive ten current to the right. This is called the "conventional current direction," or just "current." Sometimes "electron current" is used instead which is in the direction the electrons are flowing, but electron current is always explicitly called "electron current" while "conventional current" is usually just called "current."
 
-Since current is a change over time, it can be represented as the equation
+Since current $i$ is a change over time, it can be represented as the equation
 $$
 i = \frac{dq}{dt}
 $$

@@ -13,6 +13,6 @@ The [[Current|conventional current]] direction is towards the top of the voltage
 
 The change in potential energy $\Delta{U}$ of a charged particle $q$ and voltage $V$ can be represented as $\Delta{U} = qV$. Logically then, we can express voltage $V$ as the change in potential energy $\Delta{U}$ of a charged particle $q$ as $V = \frac{\Delta{U}}{q}$. Note that this voltage is the voltage between two points, just like how the potential energy of a boulder on a mountain is measured between the position of the boulder on the mountain and the base of the mountain.
 
-Voltage is measured in volts $V$, which is equivalent to $1V = 1 \text{watt} / \text{ampere} = 1 \text{joule} / \text{coulomb}$.
+Voltage is measured in volts $V$ (or $v$), which is equivalent to $1V = 1 \text{watt} / \text{ampere} = 1 \text{joule} / \text{coulomb}$.
 
 - [ ] TODO: Watch <https://youtu.be/kS25vitrZ6g?si=aT0m6XZJo3IIQxqq>

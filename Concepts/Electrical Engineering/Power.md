@@ -17,4 +17,6 @@ W
     = V i
 $$
 
+Power is dissipated in a [[Resistor]].
+
 [^1]: <https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/a/ee-voltage-and-current>
