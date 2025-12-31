@@ -6,7 +6,7 @@ urls:
   - https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/v/current-direction
   - https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/v/ee-conventional-current
 ---
-Current is the flow of [[Charge|charge]]. Current is caused by electric or magnetic forces. Charges flow in a current, providing usable energy. Often, the charges used are electrons. However, some materials such as saltwater use both positive and negative charges.
+Current is the flow of [[Charge|charge]]. Current is caused by electric or magnetic forces. Charges flow in a current, providing usable energy. Often, the charges used are electrons. However, some materials such as saltwater use both positive and negative charges. Current flows from higher to lower [[voltage]].
 
 We measure current by observing how many charges, regardless of the sign of the charges, pass one spot in a some amount of time. For example, if measured over a second current would be charges per second, or $q / \sec$
 

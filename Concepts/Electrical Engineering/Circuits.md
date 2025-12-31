@@ -16,7 +16,7 @@ A circuits is composed of *elements*. The set of elements in the circuit must in
 
 Circuits are additionally composed of nodes, branches, and other parts. The parts and their definitions depends on the analysis being performed.
 ### Geometric/Topological Definition
-The point where two or more elements meet is called a *node* or a *junction*. Nodes at not necessarily a specific physical point. Rather, it's a topological concept. For example, in the [[#^40000b|diagram below]] the connection between elements A and B form a node. Additionally, B, C, and D, as well as A, C, D form a node.
+The point where two or more elements meet is called a *node* or a *junction*. Nodes at not necessarily a specific physical point. Rather, it's a topological concept. For example, in the [[#^40000b|diagram below]] the connection between elements A and B form a node. Additionally, B, C, and D, as well as A, C, D form a node. ^b739ce
 
 ```
 ┌──B──┬──┐
