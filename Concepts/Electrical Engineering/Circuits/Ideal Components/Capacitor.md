@@ -7,10 +7,17 @@ Capacitors are often abbreviated to **C**.
 In an ideal capacitor, [[power]] is not dissipated and can flow back out of the component.
 ## I-V Relationship
 
+### Derivative Form
 [[Current]] $i$ equals the [[Capacitance|capacitance]] $C$ of the device times the change in [[Voltage|voltage]] over time $\frac{dv}{dt}$.
 $$
 i = C\frac{dv}{dt}
 $$
+### Integral Form
+
+$$
+v = \frac{1}{C} \int_0^T{i\text{d}t} + v_0
+$$
+where $T$ is the max time and $t$ is the current time, $v_0$ is the voltage at time 0, and $v$, $i$, and $C$ are voltage, current, and capacitance at time $t$.
 
 ## Symbol
 

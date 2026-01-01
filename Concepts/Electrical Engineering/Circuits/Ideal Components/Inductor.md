@@ -10,10 +10,16 @@ In an ideal inductor, [[power]] does not dissipate. Instead, it is stored in the
 
 [[Voltage]] $v$ is equal to [[Inductance|inductance]] $L$ of the device times the change in current over time $\frac{di}{dt}$.
 
+### Derivative Form
 $$
 v = L \frac{di}{dt}
 $$
 
+### Integral Form
+$$
+i = \frac{1}{L}\int_0^T{v\mathrm{d}t} + i_0
+$$
+where $T$ is the max time and $i_0$ is the current at time 0.
 ## Symbol
 
 ### American/Japanese
