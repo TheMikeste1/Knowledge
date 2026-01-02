@@ -44,7 +44,7 @@
             "name": "getBookInfo",
             "type": "UserScript",
             "id": "292e03d6-4612-4900-b500-39ac32eb93ec",
-            "path": "_Templates/getBookInfo.js",
+            "path": "_Templates/_scripts/getBookInfo.js",
             "settings": {}
           },
           {
@@ -81,6 +81,66 @@
               "fileExistsMode": "Increment the file name",
               "setFileExistsBehavior": false
             }
+          }
+        ]
+      }
+    },
+    {
+      "id": "b30368e8-308a-4963-ba04-0a264b0e1481",
+      "name": "Add foundation",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Add foundation",
+        "id": "30c001b0-4682-4373-9d85-f182a6bc469d",
+        "commands": [
+          {
+            "name": "Foundation",
+            "type": "UserScript",
+            "id": "3f9fb39b-bd5e-4ec7-87af-9c6ddab69b65",
+            "path": "_Templates/Pages/Foundation.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "1f73fbad-910f-463f-bcc6-fbbc77fa3266",
+      "name": "Add method",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Add method",
+        "id": "d91879ea-87ff-49a1-83c4-62c84009cf42",
+        "commands": [
+          {
+            "name": "Method",
+            "type": "UserScript",
+            "id": "32fa788d-7f65-4305-819d-372bcd4af36d",
+            "path": "_Templates/Pages/Method.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "ceec3a01-bdba-4a2b-bb8a-9f2b2dacf954",
+      "name": "Add meta",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Add meta",
+        "id": "10a4f19c-e3af-41bb-80ab-b0712d4c4060",
+        "commands": [
+          {
+            "name": "Meta",
+            "type": "UserScript",
+            "id": "37ee00d7-86f5-4d7a-ac51-0f1f986d2b47",
+            "path": "_Templates/Pages/Meta.js",
+            "settings": {}
           }
         ]
       }
@@ -188,3 +248,4 @@
     "setProviderModelDiscoveryMode": true
   }
 }
+
