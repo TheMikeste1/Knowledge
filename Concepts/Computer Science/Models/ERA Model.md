@@ -1,5 +1,9 @@
 ---
+role: model
+domain: computer-science
+paradigm:
 tags:
+  - role/model
   - self-designed
   - cyber-security
 ---

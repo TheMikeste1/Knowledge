@@ -1,5 +1,9 @@
 ---
+role: analysis
+domain: computer-science
+paradigm:
 tags:
+  - role/analysis
   - computer-vision
 ---
 Segmentation involves dividing an image into separate regions. Each pixel will be assigned to a region, and no region may share pixels.

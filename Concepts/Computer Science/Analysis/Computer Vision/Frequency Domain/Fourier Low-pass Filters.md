@@ -1,5 +1,9 @@
 ---
+role: analysis
+domain: computer-science
+paradigm:
 tags:
+  - role/analysis
   - computer-vision
 ---
 Low-pass  filters in the frequency domain primarily rely on the distance from the signal center.

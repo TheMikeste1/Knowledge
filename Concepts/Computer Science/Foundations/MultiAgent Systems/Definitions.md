@@ -1,3 +1,10 @@
+---
+role: foundation
+domain: computer-science
+paradigm:
+tags:
+  - role/foundation
+---
 # Pareto Optimal
 There exists no other solution where one party is advantaged without hurting others.
 

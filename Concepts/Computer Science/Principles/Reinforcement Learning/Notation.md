@@ -1,3 +1,10 @@
+---
+role: principle
+domain: computer-science
+paradigm:
+tags:
+  - role/principle
+---
 $$
 \begin{array} {|r|r|}
 \hline 

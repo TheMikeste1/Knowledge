@@ -1,5 +1,9 @@
 ---
+role: foundation
+domain: computer-science
+paradigm:
 tags:
+  - role/foundation
   - software-design
 literature:
   - "[[Boolean blindness - R, Shreevatsa]]"

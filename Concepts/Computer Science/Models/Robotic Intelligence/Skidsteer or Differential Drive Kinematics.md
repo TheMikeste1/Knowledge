@@ -1,3 +1,10 @@
+---
+role: model
+domain: computer-science
+paradigm:
+tags:
+  - role/model
+---
 ![[skidsteer_kinematics.png]]
 
 $$

@@ -1,3 +1,10 @@
+---
+role: foundation
+domain: computer-science
+paradigm:
+tags:
+  - role/foundation
+---
 # What is a Multiagent System?
 Goals:
 - Cooperation

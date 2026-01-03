@@ -1,3 +1,10 @@
+---
+role: analysis
+domain: computer-science
+paradigm:
+tags:
+  - role/analysis
+---
 # What is Machine Learning?
 All machine learning techniques can be summed up as a function. They take some input and have some output. What that input and output are depends on the purpose of the machine, be it speech input and text output, or a matrix representing a board game the the next move as an output.
 

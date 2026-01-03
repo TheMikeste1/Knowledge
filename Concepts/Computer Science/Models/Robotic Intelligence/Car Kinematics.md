@@ -1,3 +1,10 @@
+---
+role: model
+domain: computer-science
+paradigm:
+tags:
+  - role/model
+---
 ![[car_kinematics.png]]
 
 $$\frac{L}{R} = \tan{\alpha} \Rightarrow R = \frac{L}{\tan{\alpha}}$$

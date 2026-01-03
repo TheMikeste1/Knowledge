@@ -1,3 +1,10 @@
+---
+role: analysis
+domain: computer-science
+paradigm:
+tags:
+  - role/analysis
+---
 Data often has to be preprocessed in order be useful.
 
 # Categorical Data

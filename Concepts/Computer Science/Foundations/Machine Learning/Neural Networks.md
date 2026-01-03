@@ -1,3 +1,10 @@
+---
+role: foundation
+domain: computer-science
+paradigm:
+tags:
+  - role/foundation
+---
 # "Standard" Neural Network
 
 

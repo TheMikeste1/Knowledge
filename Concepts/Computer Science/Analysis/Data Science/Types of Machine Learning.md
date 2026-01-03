@@ -1,3 +1,10 @@
+---
+role: analysis
+domain: computer-science
+paradigm:
+tags:
+  - role/analysis
+---
 ![[ml_map.png]]
 
 # Reinforcement Learning

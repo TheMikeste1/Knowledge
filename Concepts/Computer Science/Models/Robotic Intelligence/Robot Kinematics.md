@@ -1,3 +1,10 @@
+---
+role: model
+domain: computer-science
+paradigm:
+tags:
+  - role/model
+---
 Rules of thumb: try to stay within 80% of your workspace limits.
 
 ## Revolute Robot

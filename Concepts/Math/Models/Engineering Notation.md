@@ -1,4 +1,9 @@
 ---
+role: model
+domain: math
+paradigm:
+tags:
+  - role/model
 related:
   - "[[Scientific Notation]]"
 ---

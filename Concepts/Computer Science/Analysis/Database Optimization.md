@@ -1,5 +1,9 @@
 ---
+role: analysis
+domain: computer-science
+paradigm:
 tags:
+  - role/analysis
   - optimization
   - database
 ---

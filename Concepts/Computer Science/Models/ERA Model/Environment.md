@@ -1,3 +1,10 @@
+---
+role: model
+domain: computer-science
+paradigm:
+tags:
+  - role/model
+---
 The Environment category consists of assets that affect the system in which an [[Agents|Agent]] operates. This could include individual assets such as
 - User permissions
 - Application permissions

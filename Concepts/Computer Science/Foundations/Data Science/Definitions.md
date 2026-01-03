@@ -1,3 +1,10 @@
+---
+role: foundation
+domain: computer-science
+paradigm:
+tags:
+  - role/foundation
+---
 # Feature
 A feature is a datapoint used in a model to help determine the output. It is an $x$, whereas [[#Label|labels]] are the $y$. There can be many features per row.
 

@@ -1,5 +1,9 @@
 ---
+role: analysis
+domain: computer-science
+paradigm:
 tags:
+  - role/analysis
   - computer-vision
 ---
 Foreground is the set of 1s in the original image.
