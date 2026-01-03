@@ -4,7 +4,7 @@
 # Convolutional Neural Network
 Convolutional Neural Networks, or CNNs, 
 
-CNNs are particularly useful for image processing. This is because they use a layer with a processing method called "[[Concepts/Computer Science/Data Science/Definitions#Convolution|convolution]]," which essentially combines features inside a filtered area into a new feature. This new feature could be the edges of the input (if a edge-detection filter is used), a blurred image, or any other possible output of a filter. See [[Spatial Filters]] for some possible filters.
+CNNs are particularly useful for image processing. This is because they use a layer with a processing method called "[[Concepts/Computer Science/Foundations/Data Science/Definitions#Convolution|convolution]]," which essentially combines features inside a filtered area into a new feature. This new feature could be the edges of the input (if a edge-detection filter is used), a blurred image, or any other possible output of a filter. See [[Spatial Filters]] for some possible filters.
 
 After a convolutional layer, a pooling layer is typically used. A pooling layer takes the output of the convolutional layer and further pools it. While a convolutional layer will likely have overlapping values when filtering if the stride is small than the filter size, the pooling layer will not.
 

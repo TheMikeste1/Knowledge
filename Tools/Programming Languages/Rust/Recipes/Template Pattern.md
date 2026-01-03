@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[Concepts/Computer Science/Design Patterns/Template]]"
+  - "[[Template]]"
 ---
 ## With Strategy Pattern
 

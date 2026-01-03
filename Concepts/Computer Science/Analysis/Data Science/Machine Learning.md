@@ -9,14 +9,14 @@ A basic framework for machine learning is to have a set of functions, called a m
 Regression machine learning has the goal of getting some number as an output, such as the cost of a house or the number of games a team will win.
 
 ### Linear Regression
-Linear regression creates a line to try to predict the [[Concepts/Computer Science/Data Science/Definitions#Label|label]]. The goal is to find the best line to represent the data, and works well for labels that have a linear relationship with their [[Concepts/Computer Science/Data Science/Definitions#Feature|features]], such as the amount of money required to purchase some good.
+Linear regression creates a line to try to predict the [[Concepts/Computer Science/Foundations/Data Science/Definitions#Label|label]]. The goal is to find the best line to represent the data, and works well for labels that have a linear relationship with their [[Concepts/Computer Science/Foundations/Data Science/Definitions#Feature|features]], such as the amount of money required to purchase some good.
 
-Since it is a line, it can be represented as $y = mx + b$, but this is typically replace with $f(\mathbf{x}) = \mathbf{x}^T \mathbf{w} + b$, where $f(\mathbf{x})$ is the function, $\mathbf{x}$ is the feature vector, $\mathbf{w}$ is the weight vector, and $b$ is called the [[Concepts/Computer Science/Data Science/Definitions#Bias|bias]]. This can similarly be written as $f(\mathbf{x}) = w_1 x_1 + w_2 x_2 + \ldots + w_d x_d$, where $d$ is the dimensionality of the feature vector.
+Since it is a line, it can be represented as $y = mx + b$, but this is typically replace with $f(\mathbf{x}) = \mathbf{x}^T \mathbf{w} + b$, where $f(\mathbf{x})$ is the function, $\mathbf{x}$ is the feature vector, $\mathbf{w}$ is the weight vector, and $b$ is called the [[Concepts/Computer Science/Foundations/Data Science/Definitions#Bias|bias]]. This can similarly be written as $f(\mathbf{x}) = w_1 x_1 + w_2 x_2 + \ldots + w_d x_d$, where $d$ is the dimensionality of the feature vector.
 
 We can change the weights and the bias in this equation to more accurately follow the linear relationship between the features and the labels.
 
 #### Least-Squares Regression
-Least-squares  regression finds the line with the least amount of vertical loss between the all points provided in the training data. Its [[Concepts/Computer Science/Data Science/Definitions#Objective Function|objective function]] looks like so:
+Least-squares  regression finds the line with the least amount of vertical loss between the all points provided in the training data. Its [[Concepts/Computer Science/Foundations/Data Science/Definitions#Objective Function|objective function]] looks like so:
 $$
 L(\mathbf{w}) = \frac{1}{n}\sum^n_{i = 1}{(\mathbf{x}^T \mathbf{w} - y_i)^2}
 $$
