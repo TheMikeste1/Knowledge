@@ -84,7 +84,7 @@ module.exports = async (params) => {
   );
 
   // Build tags safely
-  const tags = ["role/method"];
+  const tags = ["role/analysis"];
   if (paradigm) {
     tags.push(`paradigm/${paradigm}`);
   }
@@ -92,7 +92,7 @@ module.exports = async (params) => {
   const tagString = tags.map((t) => `  - ${t}`).join("\n");
   const body = `
 ---
-role: method
+role: analysis
 domain: ${domain}
 paradigm: ${paradigm}
 tags:
@@ -101,7 +101,7 @@ related:
 aliases:
 ---
 ## Purpose
-Explain what this method achieves.
+Explain what this analysis achieves.
 
 ## Prerequisites
 List required foundational concepts.
@@ -120,7 +120,7 @@ Caveats, alternatives, or optimizations.
 
   // Determine folder
   const domainFolder = kebabCaseToDomain(domain);
-  const folder = `Concepts/${domainFolder}/Methods`;
+  const folder = `Concepts/${domainFolder}/Analysis`;
   const filePath = `${folder}/${title}.md`;
 
   // Ensure folder exists

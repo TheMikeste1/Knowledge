@@ -127,19 +127,19 @@
     },
     {
       "id": "ceec3a01-bdba-4a2b-bb8a-9f2b2dacf954",
-      "name": "Add meta",
+      "name": "Add model",
       "type": "Macro",
       "command": true,
       "runOnStartup": false,
       "macro": {
-        "name": "Add meta",
+        "name": "Add model",
         "id": "10a4f19c-e3af-41bb-80ab-b0712d4c4060",
         "commands": [
           {
-            "name": "Meta",
+            "name": "Model",
             "type": "UserScript",
             "id": "37ee00d7-86f5-4d7a-ac51-0f1f986d2b47",
-            "path": "_Templates/Pages/Meta.js",
+            "path": "_Templates/Pages/Model.js",
             "settings": {}
           }
         ]

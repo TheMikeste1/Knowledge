@@ -67,19 +67,19 @@ module.exports = async (params) => {
   const paradigm = await quickAddApi.suggester(
     [
       "(none)",
-      "Symbolic",
-      "Statistical",
-      "Physical",
       "Computational",
       "Interpretive",
+      "Physical",
+      "Statistical",
+      "Symbolic",
     ],
     [
       "",
-      "symbolic",
-      "statistical",
-      "physical",
       "computational",
       "interpretive",
+      "physical",
+      "statistical",
+      "symbolic",
     ],
   );
 
