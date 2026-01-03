@@ -27,9 +27,10 @@ module.exports = async (params) => {
   const body = variables.body;
 
   const roleFolder = {
-    analysis: "Analysis",
-    foundation: "Foundations",
+    method: "Methods",
     model: "Models",
+    primitive: "Primitives",
+    principle: "Principles",
   }[role];
 
   const paradigm = variables.paradigm;
@@ -47,6 +48,7 @@ role: ${role}
 domain: ${domain}
 subdomain: ${subdomain}
 paradigm: ${paradigm}
+status: draft
 tags:
 ${tagString}
 related:

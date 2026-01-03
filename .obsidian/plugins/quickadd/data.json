@@ -87,19 +87,19 @@
     },
     {
       "id": "1f73fbad-910f-463f-bcc6-fbbc77fa3266",
-      "name": "Add analysis",
+      "name": "Add method",
       "type": "Macro",
       "command": true,
       "runOnStartup": false,
       "macro": {
-        "name": "Add analysis",
+        "name": "Add method",
         "id": "d91879ea-87ff-49a1-83c4-62c84009cf42",
         "commands": [
           {
-            "name": "setConceptToAnalysis",
+            "name": "setConceptToMethod",
             "type": "UserScript",
             "id": "6d119a9f-ac4d-4d16-a252-1d84edcc28f5",
-            "path": "_Templates/_scripts/setConceptToAnalysis.js",
+            "path": "_Templates/_scripts/setConceptToMethod.js",
             "settings": {}
           },
           {
@@ -120,47 +120,6 @@
             "name": "createConcept",
             "type": "UserScript",
             "id": "f2af9c89-43d5-452d-9c0c-eff171dadc51",
-            "path": "_Templates/_scripts/createConcept.js",
-            "settings": {}
-          }
-        ]
-      }
-    },
-    {
-      "id": "b30368e8-308a-4963-ba04-0a264b0e1481",
-      "name": "Add foundation",
-      "type": "Macro",
-      "command": true,
-      "runOnStartup": false,
-      "macro": {
-        "name": "Add foundation",
-        "id": "30c001b0-4682-4373-9d85-f182a6bc469d",
-        "commands": [
-          {
-            "name": "setConceptToFoundation",
-            "type": "UserScript",
-            "id": "fdf3d67b-2fc7-4ee0-85a2-03488c0c3598",
-            "path": "_Templates/_scripts/setConceptToFoundation.js",
-            "settings": {}
-          },
-          {
-            "name": "getDomain",
-            "type": "UserScript",
-            "id": "0577e9d6-c514-456d-b1ab-f809e13921c7",
-            "path": "_Templates/_scripts/getDomain.js",
-            "settings": {}
-          },
-          {
-            "name": "getParadigm",
-            "type": "UserScript",
-            "id": "dda88b71-702b-4c6b-ac1d-888e6d938569",
-            "path": "_Templates/_scripts/getParadigm.js",
-            "settings": {}
-          },
-          {
-            "name": "createConcept",
-            "type": "UserScript",
-            "id": "36d5a4b4-5c35-4704-9a5a-60dccfb4fba7",
             "path": "_Templates/_scripts/createConcept.js",
             "settings": {}
           }
@@ -202,6 +161,88 @@
             "name": "createConcept",
             "type": "UserScript",
             "id": "80de362d-a04d-4700-890d-d1a3a2c50e0c",
+            "path": "_Templates/_scripts/createConcept.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "b30368e8-308a-4963-ba04-0a264b0e1481",
+      "name": "Add primitive",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Add primitive",
+        "id": "30c001b0-4682-4373-9d85-f182a6bc469d",
+        "commands": [
+          {
+            "name": "setConceptToPrimitive",
+            "type": "UserScript",
+            "id": "fdf3d67b-2fc7-4ee0-85a2-03488c0c3598",
+            "path": "_Templates/_scripts/setConceptToPrimitive.js",
+            "settings": {}
+          },
+          {
+            "name": "getDomain",
+            "type": "UserScript",
+            "id": "0577e9d6-c514-456d-b1ab-f809e13921c7",
+            "path": "_Templates/_scripts/getDomain.js",
+            "settings": {}
+          },
+          {
+            "name": "getParadigm",
+            "type": "UserScript",
+            "id": "dda88b71-702b-4c6b-ac1d-888e6d938569",
+            "path": "_Templates/_scripts/getParadigm.js",
+            "settings": {}
+          },
+          {
+            "name": "createConcept",
+            "type": "UserScript",
+            "id": "36d5a4b4-5c35-4704-9a5a-60dccfb4fba7",
+            "path": "_Templates/_scripts/createConcept.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "04c1fd06-2369-4dab-9934-df016bd07e0c",
+      "name": "Add principle",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Add principle",
+        "id": "47abf3f2-d9a5-4cdb-9e55-4530d4f38fc2",
+        "commands": [
+          {
+            "name": "setConceptToPrinciple",
+            "type": "UserScript",
+            "id": "8fb5b48f-ec21-40d6-a1c0-6e7048f630ab",
+            "path": "_Templates/_scripts/setConceptToPrinciple.js",
+            "settings": {}
+          },
+          {
+            "name": "getDomain",
+            "type": "UserScript",
+            "id": "72df8877-13e2-4ba9-8574-8fcae5c1daa8",
+            "path": "_Templates/_scripts/getDomain.js",
+            "settings": {}
+          },
+          {
+            "name": "getParadigm",
+            "type": "UserScript",
+            "id": "a04d1cde-e9f7-4dd4-b9e3-da4d6e611f1e",
+            "path": "_Templates/_scripts/getParadigm.js",
+            "settings": {}
+          },
+          {
+            "name": "createConcept",
+            "type": "UserScript",
+            "id": "43f12209-e1e8-4a55-b79f-707360f173a3",
             "path": "_Templates/_scripts/createConcept.js",
             "settings": {}
           }
