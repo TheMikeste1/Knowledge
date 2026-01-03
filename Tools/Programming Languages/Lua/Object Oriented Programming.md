@@ -36,7 +36,7 @@ a:withdraw(123)
 
 ## Creating a Class
 
-Instead of traditional classes, Lua emulates classes using the [[Concepts/Computer Science/Design Patterns/Prototype|prototype pattern]]. Each table is unique, but through the prototype it can be structurally identical to other tables. To assign a prototype, we call `setmetatable` and set the `__index` of the newly-created object:
+Instead of traditional classes, Lua emulates classes using the [[Prototype|prototype pattern]]. Each table is unique, but through the prototype it can be structurally identical to other tables. To assign a prototype, we call `setmetatable` and set the `__index` of the newly-created object:
 
 ```lua
 function Account:new(o)

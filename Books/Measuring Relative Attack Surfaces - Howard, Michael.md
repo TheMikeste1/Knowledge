@@ -1,6 +1,6 @@
 ---
 tags:
-  - techonology
+  - technology
   - cyber-security
 type: paper
 author: Howard, Michael

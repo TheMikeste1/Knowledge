@@ -1,6 +1,6 @@
 ---
 tags:
-  - techonology
+  - technology
   - software-design
 type: paper
 author: Holzmann, Gerard J

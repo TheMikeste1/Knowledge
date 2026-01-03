@@ -1,6 +1,6 @@
 ---
 tags:
-  - techonology
+  - technology
   - software-design
 type: blog
 author: Harper, Robert

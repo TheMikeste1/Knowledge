@@ -1,7 +1,7 @@
 ---
 tags:
   - religion
-  - techonology
+  - technology
   - artifical-intelligence
   - artificial-general-intelligence
 type: book
