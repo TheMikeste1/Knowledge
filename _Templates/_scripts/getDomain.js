@@ -27,18 +27,25 @@ function getDomains(app) {
 }
 
 /**
- * @param {string} domain - The domain to check.
+ * @param {string} domainFolder - The domain to check.
  * @param app - The Obsidian instance.
  * @returns {[string]} The name of domains.
  */
-function getSubdomains(domain, app) {
-  const conceptFolder = app.vault.getFolderByPath("Concepts/" + domain);
+function getSubdomains(domainFolder, app) {
+  const conceptFolder = app.vault.getFolderByPath("Concepts/" + domainFolder);
   return conceptFolder
     ? Array.from(
         conceptFolder.children
           .filter((item) => {
             // Cheap trick to see if the item is a folder
-            return item.children !== undefined;
+            return (
+              item.children !== undefined &&
+              !item.name.startsWith("_") &&
+              item.name !== "Methods" &&
+              item.name !== "Models" &&
+              item.name !== "Primitives" &&
+              item.name !== "Principles"
+            );
           })
           .map((item) => {
             return item.name;
@@ -55,13 +62,12 @@ function getSubdomains(domain, app) {
 async function chooseDomain(api, app) {
   const domains = getDomains(app);
   domains.push("(new)");
-  let domain = await api.suggester(domains, domains.map(domainToKebabCase));
+  let domain = await api.suggester(domains, domains);
   if (domain === "(new)") {
     domain = await api.inputPrompt("New Domain:");
-    domain = domainToKebabCase(domain);
   }
 
-  return domain;
+  return [domain, domainToKebabCase(domain)];
 }
 
 /**
@@ -70,8 +76,8 @@ async function chooseDomain(api, app) {
  * @param app - The Obsidian API.
  * @returns {Promise<string>} The subdomain to use, if one was chosen.
  */
-async function chooseSubdomain(api, app, domain) {
-  const subdomains = getSubdomains(domain, app);
+async function chooseSubdomain(api, app, domainFolder) {
+  const subdomains = getSubdomains(domainFolder, app);
   subdomains.unshift("(none)");
   subdomains.push("(new)");
   let subdomain = await api.suggester(
@@ -90,7 +96,7 @@ async function chooseSubdomain(api, app, domain) {
 
 module.exports = async (params) => {
   const { quickAddApi, app, variables } = params;
-  const domain = await chooseDomain(quickAddApi, app);
+  const [domain, domainFolder] = await chooseDomain(quickAddApi, app);
   const subdomain = await chooseSubdomain(quickAddApi, app, domain);
   variables.domain = {
     domain: domain,
