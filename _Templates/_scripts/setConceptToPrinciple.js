@@ -2,7 +2,7 @@ module.exports = async (params) => {
   const { variables } = params;
   variables.role = "principle";
   variables.body = `
-## Statement
+## Definition
 Articulate the principle or law.
 
 ## Derivation / Basis
