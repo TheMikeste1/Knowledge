@@ -42,7 +42,7 @@ module.exports = async (params) => {
   }
 
   const tagString = tags.map((t) => `  - ${t}`).join("\n");
-  const frontmatter = `
+  const contents = `
 ---
 role: ${role}
 domain: ${domain}
@@ -53,7 +53,8 @@ tags:
 ${tagString}
 related:
 aliases:
----`.trimStart();
+---
+${body}`.trimStart();
 
   // Determine folder
   const domainFolder = kebabCaseToDomain(domain);
@@ -66,7 +67,7 @@ aliases:
   await app.vault.createFolder(folder).catch(() => {});
 
   // Create note
-  await app.vault.create(filePath, frontmatter + body);
+  await app.vault.create(filePath, contents);
 
   // Open note
   const file = app.vault.getAbstractFileByPath(filePath);
