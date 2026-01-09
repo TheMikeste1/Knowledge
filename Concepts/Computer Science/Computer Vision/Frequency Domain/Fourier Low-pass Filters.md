@@ -1,10 +1,5 @@
 ---
-role: method
-domain: computer-science
-paradigm:
-tags:
-  - role/method
-  - computer-vision
+type:
 ---
 Low-pass  filters in the frequency domain primarily rely on the distance from the signal center.
 

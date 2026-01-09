@@ -1,9 +1,5 @@
 ---
-role: model
-domain: computer-science
-paradigm:
-tags:
-  - role/model
+type:
 ---
 The Resources category consists of assets that [[Agents]] can interact with, but that cannot directly interact with other assets. This could include individual assets such as
 - Files

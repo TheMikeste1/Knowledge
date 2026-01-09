@@ -1,9 +1,5 @@
 ---
-role: method
-domain: electrical-engineering
-paradigm:
-tags:
-  - role/method
+type:
 references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/circuit-elements/a/ee-circuit-terminology
 ---

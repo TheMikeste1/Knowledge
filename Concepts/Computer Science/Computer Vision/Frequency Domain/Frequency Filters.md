@@ -1,10 +1,5 @@
 ---
-role: method
-domain: computer-science
-paradigm:
-tags:
-  - role/method
-  - computer-vision
+type:
 ---
 Frequency filters work on the frequency domain of an image. They differ from [[Spatial Filters]] in that they do not work on individual pixels, but rather the frequency of an image. A change in the frequency will be echoed throughout the image.
 

@@ -1,9 +1,5 @@
 ---
-role: primitive
-domain: computer-science
-paradigm:
-tags:
-  - role/primitive
+type:
 ---
 # "Standard" Neural Network
 

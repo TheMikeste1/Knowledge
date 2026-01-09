@@ -1,10 +1,5 @@
 ---
-role: princinple
-domain: electrical-engineering
-paradigm: symbolic
-tags:
-  - role/princinple
-  - paradigm/symbolic
+type: symbolic
 references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-dc-circuit-analysis/a/ee-linearity
 ---

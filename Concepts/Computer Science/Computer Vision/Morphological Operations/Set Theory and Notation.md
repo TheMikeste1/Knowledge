@@ -1,10 +1,5 @@
 ---
-role: method
-domain: computer-science
-paradigm:
-tags:
-  - role/method
-  - computer-vision
+type:
 ---
 - Translation
 $A_x = \{ c | c = a + x, a \in A \}$

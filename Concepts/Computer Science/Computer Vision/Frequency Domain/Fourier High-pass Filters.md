@@ -1,10 +1,5 @@
 ---
-role: method
-domain: computer-science
-paradigm:
-tags:
-  - role/method
-  - computer-vision
+type:
 ---
 # Ideal High-pass Filter
 The Ideal High-pass filter $H$ is defined as

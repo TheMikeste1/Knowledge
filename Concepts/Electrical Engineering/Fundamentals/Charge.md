@@ -1,10 +1,5 @@
 ---
-role: primitive
-domain: electrical-engineering
-paradigm: physical
-tags:
-  - role/primitive
-  - paradigm/physical
+type: physical
 aliases:
   - coulombs
 references:

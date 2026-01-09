@@ -1,9 +1,5 @@
 ---
-role: model
-domain: computer-science
-paradigm:
-tags:
-  - role/model
+type:
 ---
 Rules of thumb: try to stay within 80% of your workspace limits.
 

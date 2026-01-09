@@ -1,9 +1,5 @@
 ---
-role: model
-domain: computer-science
-paradigm:
-tags:
-  - role/model
+type:
 ---
 ![[car_kinematics.png]]
 

@@ -1,9 +1,5 @@
 ---
-role: principle
-domain: computer-science
-paradigm:
-tags:
-  - role/principle
+type:
 ---
 $$
 \begin{array} {|r|r|}

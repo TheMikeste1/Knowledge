@@ -1,9 +1,6 @@
 ---
-role: model
-domain: computer-science
-paradigm:
+type:
 tags:
-  - role/model
   - ml-model
 ---
 An autoencoder is a [[Neural Networks|neural network]] that learns to compress, or encode, data. It consists of two main parts: the Encoder and the Decoder. 

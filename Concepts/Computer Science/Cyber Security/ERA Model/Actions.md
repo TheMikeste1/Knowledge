@@ -1,9 +1,5 @@
 ---
-role: model
-domain: computer-science
-paradigm:
-tags:
-  - role/model
+type:
 ---
 The actions an [[Agents|Agent]] can perform on a component are categorized into three different categories:
 - **Read**. The agent can read, listen to, or otherwise receive information from a component. ^66b87c

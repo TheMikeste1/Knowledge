@@ -1,9 +1,5 @@
 ---
-role: model
-domain: computer-science
-paradigm:
-tags:
-  - role/model
+type:
 ---
 The Agents category consists of assets that operate within the [[Environment]], and that interact with [[Resources]] and other [[Agents]]. This could include
 - Applications

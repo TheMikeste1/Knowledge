@@ -1,9 +1,5 @@
 ---
-role: primitive
-domain: computer-science
-paradigm:
-tags:
-  - role/primitive
+type:
 ---
 # What is a Multiagent System?
 Goals:

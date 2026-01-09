@@ -1,10 +1,5 @@
 ---
-role: princinple
-domain: electrical-engineering
-paradigm: physical
-tags:
-  - role/princinple
-  - paradigm/physical
+type: physical
 ---
 *Ohm's Law* is one of the core concepts in electrical engineering. It takes the form of a simple equation: [[voltage]] $v$ equals [[current]] $i$ times [[resistance]] $R$.
 $$

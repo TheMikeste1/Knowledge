@@ -1,10 +1,5 @@
 ---
-role: model
-domain: electrical-engineering
-paradigm: symbolic
-tags:
-  - role/model
-  - paradigm/symbolic
+type: symbolic
 references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/circuit-elements/v/ideal-circuit-elements
 ---

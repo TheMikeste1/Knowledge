@@ -1,9 +1,5 @@
 ---
-role: method
-domain: computer-science
-paradigm:
-tags:
-  - role/method
+type:
 ---
 Data often has to be preprocessed in order be useful.
 

@@ -1,9 +1,5 @@
 ---
-role: model
-domain: computer-science
-paradigm:
-tags:
-  - role/model
+type:
 ---
 # Inverse Kinematics (Position to angles)
 Inverse Kinematics: Given a point in space, how do I get to it?

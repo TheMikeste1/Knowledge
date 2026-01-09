@@ -1,10 +1,5 @@
 ---
-role: method
-domain: computer-science
-paradigm:
-tags:
-  - role/method
-  - computer-vision
+type:
 ---
 Dilation and erosion are pattern matching operations; they don't necessarily modify the image.
 

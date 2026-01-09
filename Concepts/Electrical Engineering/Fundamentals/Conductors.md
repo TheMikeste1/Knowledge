@@ -1,10 +1,5 @@
 ---
-role: primitive
-domain: electrical-engineering
-paradigm: physical
-tags:
-  - role/primitive
-  - paradigm/physical
+type: physical
 references:
   - https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/a/ee-voltage-and-current
 related:

@@ -1,10 +1,5 @@
 ---
-role: model
-domain: electrical-engineering
-paradigm: physical
-tags:
-  - role/model
-  - paradigm/physical
+type: physical
 references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/circuit-elements/a/ee-real-world-circuit-elements
 ---

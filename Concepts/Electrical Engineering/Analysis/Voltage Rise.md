@@ -1,10 +1,5 @@
 ---
-role: method
-domain: electrical-engineering
-paradigm: symbolic
-tags:
-  - role/method
-  - paradigm/symbolic
+type: symbolic
 aliases:
   - rise
 related:

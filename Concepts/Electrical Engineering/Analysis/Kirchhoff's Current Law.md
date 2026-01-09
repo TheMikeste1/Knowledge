@@ -1,10 +1,5 @@
 ---
-role: princinple
-domain: electrical-engineering
-paradigm: physical
-tags:
-  - role/princinple
-  - paradigm/physical
+type: physical
 aliases:
   - KCL
 references:

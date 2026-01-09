@@ -1,9 +1,6 @@
 ---
-role: primitive
-domain: computer-science
-paradigm:
+type:
 tags:
-  - role/primitive
   - software-design
 literature:
   - "[[Boolean blindness - R, Shreevatsa]]"

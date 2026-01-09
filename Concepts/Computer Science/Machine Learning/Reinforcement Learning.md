@@ -1,11 +1,6 @@
 ---
-role: primitive
-domain: computer-science
-subdomain: 
-paradigm: 
+type: 
 status: draft
-tags:
-  - role/primitive
 related:
 aliases:
 ---

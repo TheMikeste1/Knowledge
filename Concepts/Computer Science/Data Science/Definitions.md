@@ -1,9 +1,5 @@
 ---
-role: primitive
-domain: computer-science
-paradigm:
-tags:
-  - role/primitive
+type:
 ---
 # Feature
 A feature is a datapoint used in a model to help determine the output. It is an $x$, whereas [[#Label|labels]] are the $y$. There can be many features per row.

@@ -1,9 +1,6 @@
 ---
-role: method
-domain: computer-science
-paradigm:
+type:
 tags:
-  - role/method
   - optimization
   - database
 ---

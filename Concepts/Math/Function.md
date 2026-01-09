@@ -1,9 +1,5 @@
 ---
-role: primitive
-domain: math
-paradigm:
-tags:
-  - role/primitive
+type:
 ---
 A rule that assigns each input an output; a mapping.
 

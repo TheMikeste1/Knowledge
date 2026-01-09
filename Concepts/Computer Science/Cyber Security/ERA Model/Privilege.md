@@ -1,9 +1,5 @@
 ---
-role: model
-domain: computer-science
-paradigm:
-tags:
-  - role/model
+type:
 ---
 Privilege in the [[ERA Model]] is defined as the level of access an [[Agents|Agent]] has to another [[Agents|Agent's]] asset components. A high level of privilege is not necessarily a bad thing: some agents need more privilege to do their job. Nevertheless, the [[Principle of Least Privilege]] should still be followed and privilege restricted where possible.
 

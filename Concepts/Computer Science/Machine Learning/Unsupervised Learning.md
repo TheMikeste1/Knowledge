@@ -1,11 +1,6 @@
 ---
-role: primitive
-domain: Computer Science
-subdomain: machine-learning
-paradigm: 
+type: 
 status: draft
-tags:
-  - role/primitive
 related:
 aliases:
 ---

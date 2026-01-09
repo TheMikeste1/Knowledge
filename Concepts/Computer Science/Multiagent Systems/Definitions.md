@@ -1,9 +1,5 @@
 ---
-role: primitive
-domain: computer-science
-paradigm:
-tags:
-  - role/primitive
+type:
 ---
 # Pareto Optimal
 There exists no other solution where one party is advantaged without hurting others.

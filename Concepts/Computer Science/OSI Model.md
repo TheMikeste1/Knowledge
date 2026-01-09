@@ -1,9 +1,5 @@
 ---
-role: primitive
-domain: computer-science
-paradigm:
-tags:
-  - role/primitive
+type:
 ---
 The Open System Interconnection (abbr. OSI) model is a conceptual model used to organize and abstract away sending information between devices. It consists of seven layers, the last three of which are often combined into one in other similar models.
 ![[OSI_model.png|128]]

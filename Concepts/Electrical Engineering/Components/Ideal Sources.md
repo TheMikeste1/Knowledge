@@ -1,10 +1,5 @@
 ---
-role: model
-domain: electrical-engineering
-paradigm: symbolic
-tags:
-  - role/model
-  - paradigm/symbolic
+type: symbolic
 aliases:
   - sources
 ---

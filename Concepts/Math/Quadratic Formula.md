@@ -1,9 +1,5 @@
 ---
-role: principle
-domain: math
-paradigm:
-tags:
-  - role/principle
+type:
 ---
 Given a quadratic equation of the form $ax^2 + bx + c = 0$, one can solve for $x$ using
 $$

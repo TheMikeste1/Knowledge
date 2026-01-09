@@ -1,10 +1,5 @@
 ---
-role: method
-domain: computer-science
-paradigm:
-tags:
-  - role/method
-  - computer-vision
+type:
 ---
 Segmentation involves dividing an image into separate regions. Each pixel will be assigned to a region, and no region may share pixels.
 

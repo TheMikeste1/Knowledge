@@ -1,10 +1,5 @@
 ---
-role: primitive
-domain: electrical-engineering
-paradigm: symbolic
-tags:
-  - role/primitive
-  - paradigm/symbolic
+type: symbolic
 related:
   - "[[Planar]]"
 ---

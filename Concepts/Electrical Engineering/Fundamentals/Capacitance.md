@@ -1,10 +1,5 @@
 ---
-role: foudation
-domain: electrical-engineering
-paradigm: physical
-tags:
-  - role/primitive
-  - paradigm/physical
+type: physical
 aliases:
   - farads
 references:
