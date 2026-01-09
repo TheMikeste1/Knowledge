@@ -1,5 +1,5 @@
 ---
-type:
+type: technique
 ---
 # Inverse Kinematics (Position to angles)
 Inverse Kinematics: Given a point in space, how do I get to it?

@@ -1,4 +1,7 @@
 ---
+type: guide
+aliases:
+  - OOP in Lua
 references:
   - https://www.lua.org/pil/16.html
 ---

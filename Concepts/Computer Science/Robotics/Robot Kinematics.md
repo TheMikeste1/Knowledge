@@ -1,5 +1,5 @@
 ---
-type:
+type: model
 ---
 Rules of thumb: try to stay within 80% of your workspace limits.
 

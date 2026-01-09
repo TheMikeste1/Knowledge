@@ -1,5 +1,7 @@
 ---
-tags: obsidianmd
+type: guide
+tags:
+  - needs-update
 ---
 - Books: Information about books I've read. Highly organized and templated.
 - Concepts: Information about ideas and concepts, such as science facts or in-depth explanations. May be organized into subfolders for major categories. Tags are useful here to connect different ideas.

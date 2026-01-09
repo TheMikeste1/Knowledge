@@ -1,5 +1,5 @@
 ---
-type:
+type: reference
 ---
 # Pareto Optimal
 There exists no other solution where one party is advantaged without hurting others.

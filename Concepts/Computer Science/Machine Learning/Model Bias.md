@@ -1,5 +1,5 @@
 ---
-type: 
+type: concept
 status: draft
 related:
 aliases:

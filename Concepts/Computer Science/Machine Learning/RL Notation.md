@@ -1,5 +1,5 @@
 ---
-type:
+type: reference
 ---
 $$
 \begin{array} {|r|r|}

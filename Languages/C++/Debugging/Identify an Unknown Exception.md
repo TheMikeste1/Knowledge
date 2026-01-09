@@ -1,4 +1,3 @@
-## Identify an unknown exception
 Getting an exception but don't know its type? Try catching and using `type_info` (C++11):
 ```cpp
 try

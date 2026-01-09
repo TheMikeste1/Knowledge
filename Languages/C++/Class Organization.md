@@ -1,4 +1,5 @@
 ---
+type: pattern
 tags:
   - cpp
   - programming

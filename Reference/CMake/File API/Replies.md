@@ -1,4 +1,5 @@
 ---
+type: reference
 literature:
     - https://cmake.org/cmake/help/latest/manual/cmake-file-api.7.html#v1-reply-index-file
     - https://cmake.org/cmake/help/latest/manual/cmake-file-api.7.html#v1-reply-files

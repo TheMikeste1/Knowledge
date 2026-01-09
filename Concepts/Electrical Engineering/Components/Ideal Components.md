@@ -1,5 +1,5 @@
 ---
-type: symbolic
+type: overview
 aliases:
   - components
 references:

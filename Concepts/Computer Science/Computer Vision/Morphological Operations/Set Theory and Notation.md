@@ -1,5 +1,5 @@
 ---
-type:
+type: reference
 ---
 - Translation
 $A_x = \{ c | c = a + x, a \in A \}$

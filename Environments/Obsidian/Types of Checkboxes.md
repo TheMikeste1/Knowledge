@@ -1,7 +1,7 @@
 ---
+type: reference
 tags:
   - markdown
-  - obsidianmd
   - theme/Things
 ---
 These checkboxes are specifically supported by the Things theme

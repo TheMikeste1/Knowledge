@@ -1,5 +1,5 @@
 ---
-type: symbolic
+type: definition
 related:
   - "[[Planar]]"
 ---

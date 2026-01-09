@@ -1,5 +1,6 @@
 ---
-type:
+topic: Spatial Filters
+type: overview
 ---
 Spatial Domain filtering methods directly manipulate the pixels in an image. This makes them simpler than many other techniques, allowing for immediate and determinable changes. However, they only affect pixels in the local area, and while they do have applications for image-wide changes, they may not be the best choice for more complex filtering problems.
 

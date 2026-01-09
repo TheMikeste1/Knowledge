@@ -1,5 +1,5 @@
 ---
-type: physical
+type: principle
 ---
 *Ohm's Law* is one of the core concepts in electrical engineering. It takes the form of a simple equation: [[voltage]] $v$ equals [[current]] $i$ times [[resistance]] $R$.
 $$

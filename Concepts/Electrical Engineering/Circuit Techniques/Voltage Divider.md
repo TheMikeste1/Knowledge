@@ -1,5 +1,5 @@
 ---
-type: symbolic
+type: technique
 references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-resistor-circuits/v/ee-voltage-divider
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-resistor-circuits/a/ee-voltage-divider

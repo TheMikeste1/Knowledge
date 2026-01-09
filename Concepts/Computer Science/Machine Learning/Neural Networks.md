@@ -1,5 +1,5 @@
 ---
-type:
+type: model
 ---
 # "Standard" Neural Network
 

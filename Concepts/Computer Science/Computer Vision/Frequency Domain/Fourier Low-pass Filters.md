@@ -1,5 +1,5 @@
 ---
-type:
+type: technique
 ---
 Low-pass  filters in the frequency domain primarily rely on the distance from the signal center.
 

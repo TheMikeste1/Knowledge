@@ -1,5 +1,5 @@
 ---
-type: 
+type: principle
 status: draft
 related:
 aliases:

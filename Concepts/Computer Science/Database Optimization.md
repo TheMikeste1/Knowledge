@@ -1,5 +1,6 @@
 ---
-type:
+topic: Databases
+type: technique
 tags:
   - optimization
   - database

@@ -1,5 +1,5 @@
 ---
-type:
+type: definition
 ---
 # What is a Multiagent System?
 Goals:

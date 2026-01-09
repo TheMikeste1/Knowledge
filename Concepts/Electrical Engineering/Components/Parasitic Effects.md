@@ -1,5 +1,5 @@
 ---
-type: physical
+type: concept
 references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/circuit-elements/a/ee-real-world-circuit-elements
 ---

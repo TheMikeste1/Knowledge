@@ -1,5 +1,5 @@
 ---
-type:
+type: technique
 ---
 Segmentation involves dividing an image into separate regions. Each pixel will be assigned to a region, and no region may share pixels.
 

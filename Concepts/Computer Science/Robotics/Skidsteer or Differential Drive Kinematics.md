@@ -1,5 +1,5 @@
 ---
-type:
+type: model
 ---
 ![[skidsteer_kinematics.png]]
 

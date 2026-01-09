@@ -1,5 +1,5 @@
 ---
-type:
+type: technique
 ---
 Opening is $A - B + B$, where "$-$" is erosion and "$+$" is dilation. In Matlab, there is `imopen`.
 

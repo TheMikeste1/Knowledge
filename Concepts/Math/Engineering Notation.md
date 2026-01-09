@@ -1,5 +1,5 @@
 ---
-type:
+type: definition
 related:
   - "[[Scientific Notation]]"
 ---

@@ -1,5 +1,5 @@
 ---
-type:
+type: overview
 ---
 ![[ml_map.png]]
 

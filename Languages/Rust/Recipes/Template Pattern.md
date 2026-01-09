@@ -1,8 +1,8 @@
 ---
-related:
-  - "[[Template]]"
+tope: recipe
+concept: "[[Template Pattern]]"
 ---
-## With Strategy Pattern
+## With [[Strategy Pattern]]
 
 ### Composition
 Use composition with a strategy implementer.

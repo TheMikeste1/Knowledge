@@ -1,5 +1,5 @@
 ---
-type:
+type: technique
 ---
 # Ideal High-pass Filter
 The Ideal High-pass filter $H$ is defined as

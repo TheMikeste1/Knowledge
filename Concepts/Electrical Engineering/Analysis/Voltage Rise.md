@@ -1,5 +1,5 @@
 ---
-type: symbolic
+type: concept
 aliases:
   - rise
 related:

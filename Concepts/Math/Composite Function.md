@@ -1,5 +1,5 @@
 ---
-type:
+type: definition
 ---
 A composite function is a [[Function|function]] that has multiple sub-functions. For example, $g(x) = sin(cos(x))$ is a composite function, where $sin$ is the outer function and $cos$ is the inner.
 

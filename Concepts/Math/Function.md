@@ -1,5 +1,5 @@
 ---
-type:
+type: definition
 ---
 A rule that assigns each input an output; a mapping.
 

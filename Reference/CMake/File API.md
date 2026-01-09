@@ -1,4 +1,5 @@
 ---
+type: overview
 literature:
     - https://cmake.org/cmake/help/latest/manual/cmake-file-api.7.html
 ---

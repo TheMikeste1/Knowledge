@@ -1,5 +1,5 @@
 ---
-type:
+type: definition
 ---
 The actions an [[Agents|Agent]] can perform on a component are categorized into three different categories:
 - **Read**. The agent can read, listen to, or otherwise receive information from a component. ^66b87c

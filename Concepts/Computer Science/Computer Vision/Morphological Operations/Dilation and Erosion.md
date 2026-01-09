@@ -1,5 +1,5 @@
 ---
-type:
+type: technique
 ---
 Dilation and erosion are pattern matching operations; they don't necessarily modify the image.
 

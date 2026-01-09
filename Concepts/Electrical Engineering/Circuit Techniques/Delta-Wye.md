@@ -1,5 +1,5 @@
 ---
-type: symbolic
+type: technique
 aliases:
   - pi-T
 references:

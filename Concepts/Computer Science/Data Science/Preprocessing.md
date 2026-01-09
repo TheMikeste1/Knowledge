@@ -1,5 +1,5 @@
 ---
-type:
+type: technique
 ---
 Data often has to be preprocessed in order be useful.
 

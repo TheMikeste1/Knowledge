@@ -1,5 +1,5 @@
 ---
-type:
+type: technique
 ---
 Low-pass filters enhance low frequency components and eliminate/reduce high frequency ones. The sum of all elements in a low-pass filter must add to exactly 1, which occasional exceptions such as [[#Median Filters]]. Low pass filters must be symmetric about the center, and all values must be positive or 0. They are the opposite of [[High-pass Filters]].
 

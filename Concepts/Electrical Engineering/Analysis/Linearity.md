@@ -1,5 +1,5 @@
 ---
-type: symbolic
+type: principle
 references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-dc-circuit-analysis/a/ee-linearity
 ---

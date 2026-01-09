@@ -1,5 +1,5 @@
 ---
-type: physical
+type: principle
 aliases:
   - KVL
 references:

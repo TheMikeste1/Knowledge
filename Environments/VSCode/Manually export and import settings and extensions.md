@@ -1,10 +1,9 @@
 ---
-tags: 
-  - programming
-  - tool
-  - vscode
+type: workflow
+tags:
+  - extensions
 ---
-# Export
+## Export
 Go to `%AppData%\Code\User` and copy `keybindings.json` and `settings.json`. You may want to copy your data in `snippets` and `profiles` as well.
 
 To export the extensions, run
@@ -14,7 +13,7 @@ code --list-extensions > extensions.txt
 ```
 This works by having `code` print its extensions and redirecting the output to `extensions.txt`.
 
-# Import
+## Import
 To import, copy the `keybindings.json` and `settings.json` (as well as `snippets` and `profiles`) to `%AppData%\Code\User`.
 
 To import extensions, take the generated `extensions.txt` and run 

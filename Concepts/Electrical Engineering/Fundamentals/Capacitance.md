@@ -1,5 +1,5 @@
 ---
-type: physical
+type: definition
 aliases:
   - farads
 references:

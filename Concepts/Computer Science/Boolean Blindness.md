@@ -1,5 +1,6 @@
 ---
-type:
+topic: Programming Languages
+type: definition
 tags:
   - software-design
 literature:

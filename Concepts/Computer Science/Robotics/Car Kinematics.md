@@ -1,5 +1,5 @@
 ---
-type:
+type: model
 ---
 ![[car_kinematics.png]]
 
