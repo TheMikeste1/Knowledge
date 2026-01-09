@@ -5,7 +5,7 @@ paradigm: symbolic
 tags:
   - role/model
   - paradigm/symbolic
-urls:
+references:
    - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/circuit-elements/v/ee-ideal-sources
 ---
 Constant [[Voltage]] Sources are a source of constant voltage. Due to the relationship between voltage and [[Current|current]], if a constant voltage source is used and the amount of energy required by the system changes the current must change.

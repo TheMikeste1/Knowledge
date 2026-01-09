@@ -13,7 +13,7 @@ date_first_finished: 2025-03-15
 date_last_started: 2025-03-15
 date_last_finished: 2025-03-15
 currently_reading: false
-urls:
+references:
   - https://existentialtype.wordpress.com/2011/03/15/boolean-blindness/
 short_description: Harper explains "boolean blindness" and its effects on software.
 ---

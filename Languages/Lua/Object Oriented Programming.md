@@ -1,5 +1,5 @@
 ---
-urls:
+references:
   - https://www.lua.org/pil/16.html
 ---
 Lua doesn't have traditional class data structures. Instead, it uses tables with attached functions and common metadata.

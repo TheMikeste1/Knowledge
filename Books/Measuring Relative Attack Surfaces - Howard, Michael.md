@@ -16,7 +16,7 @@ date_first_finished: 2025-09-16
 date_last_started: 2025-09-16
 date_last_finished: 2025-09-16
 currently_reading: false
-urls:
+references:
   - https://www.cs.cmu.edu/~wing/publications/Howard-Wing03.pdf
   - https://doi.org/10.1007/0-387-24006-3_8
 short_description: Howard et al. propose a metric for determining whether one version of a system is more secure than another.

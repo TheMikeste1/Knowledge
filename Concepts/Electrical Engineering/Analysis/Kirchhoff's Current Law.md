@@ -7,7 +7,7 @@ tags:
   - paradigm/physical
 aliases:
   - KCL
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-dc-circuit-analysis/v/ee-kirchhoffs-current-law
 ---
 *Kirchhoff's Current Law* states that all the current going in to a node must equal all the current going out of a node. More formally,

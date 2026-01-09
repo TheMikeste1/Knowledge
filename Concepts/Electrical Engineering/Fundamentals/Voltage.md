@@ -7,7 +7,7 @@ tags:
   - paradigm/physical
 aliases:
   - volts
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/v/ee-voltage-intuition
   - https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/a/ee-voltage-and-current
 ---

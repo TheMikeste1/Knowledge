@@ -14,7 +14,7 @@ date_first_finished:
 date_last_started:
 date_last_finished:
 currently_reading: false
-urls:
+references:
   - http://spinroot.com/gerard/pdf/P10.pdf
   - https://spinroot.com/p10/
 short_description: Holzmann from NASA/JPL lays out JPL's safety-critical coding guidelines used to develop rocket software.

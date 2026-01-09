@@ -5,7 +5,7 @@ paradigm: symbolic
 tags:
   - role/method
   - paradigm/symbolic
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-resistor-circuits/v/ee-series-resistors
 ---
 ## Purpose

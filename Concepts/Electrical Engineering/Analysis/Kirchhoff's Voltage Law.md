@@ -7,7 +7,7 @@ tags:
   - paradigm/physical
 aliases:
   - KVL
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-dc-circuit-analysis/v/ee-kirchhoffs-voltage-law
 ---
 *Kirchhoff's voltage law* states that the voltages across all elements add up to 0. In other words, the [[Voltage Rise|voltage rises]] minus the [[Voltage Drop|voltage drops]] must equal 0, as in the circuit below.

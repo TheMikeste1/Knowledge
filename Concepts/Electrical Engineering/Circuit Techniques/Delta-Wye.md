@@ -7,7 +7,7 @@ tags:
   - paradigm/symbolic
 aliases:
   - pi-T
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-resistor-circuits/a/ee-delta-wye-resistor-networks
 ---
 ## Purpose

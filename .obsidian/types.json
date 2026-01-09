@@ -1,6 +1,7 @@
 {
   "types": {
     "aliases": "aliases",
+    "coauthors": "multitext",
     "cssclasses": "multitext",
     "date_finished": "date",
     "date_last_finished": "date",
@@ -9,13 +10,12 @@
     "date_started": "date",
     "genre": "multitext",
     "literature": "multitext",
+    "location": "multitext",
+    "references": "multitext",
+    "related": "multitext",
     "tags": "tags",
     "times_read": "number",
-    "urls": "multitext",
-    "related": "multitext",
-    "coauthors": "multitext",
-    "location": "multitext",
-    "paradigm": "text",
-    "domain": "text"
+    "type": "multitext"
   }
 }
+

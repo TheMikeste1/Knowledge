@@ -5,7 +5,7 @@ paradigm: physical
 tags:
   - role/model
   - paradigm/physical
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/circuit-elements/a/ee-real-world-circuit-elements
 ---
 Real world elements often display properties of more than one [[Ideal Components|component]]. These are called "parasitic effects", but are usually only relevant under certain conditions.

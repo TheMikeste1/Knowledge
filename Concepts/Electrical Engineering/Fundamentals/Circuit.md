@@ -5,7 +5,7 @@ paradigm: symbolic
 tags:
   - role/primitive
   - paradigm/symbolic
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/circuit-elements/a/ee-ideal-circuit-elements
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/circuit-elements/a/ee-circuit-terminology
 ---

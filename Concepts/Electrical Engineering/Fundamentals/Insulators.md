@@ -5,7 +5,7 @@ paradigm: physical
 tags:
   - role/primitive
   - paradigm/physical
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/a/ee-voltage-and-current
 related:
   - "[[Conductors]]"

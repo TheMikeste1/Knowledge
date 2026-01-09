@@ -10,7 +10,7 @@ date_first_finished:
 date_last_started:
 date_last_finished:
 currently_reading: false
-urls:
+references:
 short_description:
 ---
 **Abstract**:: 

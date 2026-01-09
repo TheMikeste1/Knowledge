@@ -7,7 +7,7 @@ tags:
   - paradigm/physical
 aliases:
   - amperes
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/v/ee-current
   - https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/v/current-direction
   - https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/v/ee-conventional-current

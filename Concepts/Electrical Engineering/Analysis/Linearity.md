@@ -5,7 +5,7 @@ paradigm: symbolic
 tags:
   - role/princinple
   - paradigm/symbolic
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-dc-circuit-analysis/a/ee-linearity
 ---
 A function is *linear* if it has

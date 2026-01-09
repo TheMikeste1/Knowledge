@@ -7,7 +7,7 @@ tags:
   - paradigm/physical
 aliases:
   - farads
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/circuit-elements/a/ee-ideal-circuit-elements
 ---
 ## Definition

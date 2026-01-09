@@ -5,7 +5,7 @@ paradigm: symbolic
 tags:
   - role/model
   - paradigm/symbolic
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/circuit-elements/v/ideal-circuit-elements
 ---
 Resistors are often abbreviated to **R**.

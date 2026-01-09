@@ -5,7 +5,7 @@ paradigm: symbolic
 tags:
   - role/model
   - paradigm/symbolic
-urls:
+references:
    - https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/circuit-elements/v/ee-ideal-sources
 ---
 Variable [[Voltage]] sources are a source of changing voltage. They generate a known voltages as a function of time, independent of the current used by the components.

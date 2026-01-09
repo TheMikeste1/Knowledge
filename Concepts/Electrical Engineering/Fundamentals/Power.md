@@ -7,7 +7,7 @@ tags:
   - paradigm/physical
 aliases:
   - watts
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/a/ee-voltage-and-current
 ---
 ## Definition

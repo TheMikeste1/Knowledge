@@ -7,7 +7,7 @@ tags:
   - paradigm/physical
 aliases:
   - coulombs
-urls:
+references:
   - https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/v/ee-current
   - https://www.khanacademy.org/science/electrical-engineering/introduction-to-ee/intro-to-ee/a/ee-voltage-and-current
 ---
