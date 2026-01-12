@@ -12,9 +12,7 @@
       },
       "folder": {
         "enabled": true,
-        "folders": [
-          "QuickNotes"
-        ],
+        "folders": ["QuickNotes"],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
@@ -63,9 +61,7 @@
               },
               "folder": {
                 "enabled": true,
-                "folders": [
-                  "Books"
-                ],
+                "folders": ["Books"],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
                 "chooseFromSubfolders": false
