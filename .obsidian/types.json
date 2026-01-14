@@ -15,6 +15,7 @@
     "related": "multitext",
     "tags": "tags",
     "times_read": "number",
-    "type": "text"
+    "type": "text",
+    "learning-paradigm": "multitext"
   }
 }

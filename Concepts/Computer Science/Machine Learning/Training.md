@@ -8,3 +8,5 @@ aliases:
 2. Expose the model to the training data.
 3. Update the model depending on how well it did with the training data.
 4. [[Model Validation|Validate]] the model using the test data to ensure it's learning a pattern, not just a set of inputs.
+
+Once hyperparameters have been solidified and all decisions made, a model is often trained using ALL available data instead of only the training data. Optionally, a small test set can be set aside permanently to permit performance monitoring.
