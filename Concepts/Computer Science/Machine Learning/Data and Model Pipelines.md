@@ -1,5 +1,8 @@
 ---
 type: concept
+related:
+  - "[[Preprocessing]]"
+  - "[[Handling Qualitative or Categorical Features]]"
 ---
 ## Definition
 A *pipeline* is an automated sequence of data processing and modeling steps that ensures consistent preprocessing between training and prediction. Pipelines prevent data leakage and reduce errors by guaranteeing the same transformations are applied in the correct order.
