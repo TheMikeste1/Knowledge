@@ -1,6 +1,7 @@
 [
-  "cm-editor-syntax-highlight-obsidian",
+  "darlal-switcher-plus",
   "dataview",
+  "drawio-obsidian",
   "folder-notes",
   "harper",
   "obsidian-code-block-enhancer",
@@ -8,12 +9,10 @@
   "obsidian-map-view",
   "obsidian-mind-map",
   "obsidian-style-settings",
+  "obsidian-tikzjax",
   "obsidian-vimrc-support",
+  "quickadd",
   "table-editor-obsidian",
   "tag-wrangler",
-  "darlal-switcher-plus",
-  "quickadd",
-  "vimium",
-  "drawio-obsidian",
-  "obsidian-tikzjax"
+  "vimium"
 ]
