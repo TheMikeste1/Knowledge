@@ -12,3 +12,6 @@ Poorly trained models may exhibit *bias*, which is a systematic error in the mod
 ## Examples
 
 ## Notes / Comments
+### The Bias-Variance Tradeoff
+A simple model is said to have high bias, while a complex model has high variance. 
+#TODO: Draw a diagram illustrating the relationship between model complexity, bias, and variance. What does the "sweet spot" represent?

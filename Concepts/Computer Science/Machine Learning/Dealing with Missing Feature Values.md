@@ -33,7 +33,10 @@ This strategy is best for when the column is mostly empty or is known to not be 
 
 This strategy is best used when the feature is mostly complete and is relevant to the [[Label|label]]. It is generally considered the "standard" approach.
 
-Research has found the mean value often works quite well #citation-needed. There are more complex techniques, but these generally do not provide additional benefit in more complex models. However, it should be noted that sometimes it is better to use a flat value, such as 0, to indicate the value was missing. For example, if a house doesn't have a garage it may make more sense to set a "Garage Built Year" to a very large value rather than the mean.
+While mean imputation is a common starting point, it can distort the original data's variance and may not always be the best choice.
+#TODO: Investigate and compare the effects of mean, median, and mode imputation on a skewed dataset. When would you choose one over the others?
+
+There are more complex techniques, but these generally do not provide additional benefit in more complex models. However, it should be noted that sometimes it is better to use a flat value, such as 0, to indicate the value was missing. For example, if a house doesn't have a garage it may make more sense to set a "Garage Built Year" to a very large value rather than the mean.
 
 Common tools to impute automatically include `sklearn.impute.SimpleImputer`.
 ## Flagged Imputation

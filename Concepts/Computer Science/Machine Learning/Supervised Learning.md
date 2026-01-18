@@ -7,6 +7,12 @@ aliases:
 ## Definition
 *Supervised learning* involves training a model with labeled data. The goal is the have the model learn how to identify different classes using the provided data or provide an accurate prediction about unseen or future data.
 
+## Common Tasks
+* Classification
+* Regression
+
+#TODO: For both Classification and Regression, provide a real-world example and list a few common algorithms for each. What is the fundamental difference between the output of a classification model and a regression model?
+
 ## Properties / Characteristics
 - **Labeled data**: Each input is paired with a target output.
 - **Direct learning signal**: Error between predictions and labels guides learning.

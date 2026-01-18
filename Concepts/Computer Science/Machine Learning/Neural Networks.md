@@ -47,7 +47,11 @@ After all convolution and pooling has been accomplished, the output it fed into 
 ## "Recap" Q/A
 
 ### Why convolutional layers?
-#TODO: Finish this section. Slide 69 in 09
+#TODO: Explain each of these concepts and how they contribute to the effectiveness of CNNs
+- **Parameter Sharing**: The same filter (and thus, the same set of weights) is used across the entire image. How does this help with efficiency and feature detection?
+- **Sparsity of Connections**: Each neuron in a convolutional layer is only connected to a small local region of the input. How does this differ from a fully connected layer?
+- **Handling translations of the image**: If an object appears in a different part of the image, will the convolutional layer still be able to detect it? Why or why not?
+
 Detect features like edge, shape, pattern, etc.
 
 # Recurrent Neural Network

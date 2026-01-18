@@ -8,5 +8,8 @@
   },
   "ul-indent": { "indent": 4 },
   "first-line-h1": false,
-  "blanks-around-fences": false
+  "blanks-around-fences": false,
+  "blanks-around-headings": false,
+  "blanks-around-lists": false,
+  "no-missing-space-atx": false
 }
