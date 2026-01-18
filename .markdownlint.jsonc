@@ -8,4 +8,5 @@
   },
   "ul-indent": { "indent": 4 },
   "first-line-h1": false,
+  "blanks-around-fences": false
 }
