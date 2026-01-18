@@ -1,5 +1,5 @@
 {
-  "ignoredLints": "{\"context_hashes\":[6004525130877683364,16909813367770936929,7495447488095144418]}",
+  "ignoredLints": "{\"context_hashes\":[7495447488095144418,16909813367770936929,6004525130877683364]}",
   "useWebWorker": true,
   "lintSettings": {
     "ACoupleMore": null,
@@ -519,6 +519,7 @@
     "WroughtIron": null
   },
   "userDictionary": [
+    "TLDR",
     "Underfitting",
     "additivity",
     "aperiodic",
