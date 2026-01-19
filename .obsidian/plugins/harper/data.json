@@ -1,5 +1,5 @@
 {
-  "ignoredLints": "{\"context_hashes\":[7495447488095144418,16909813367770936929,6004525130877683364]}",
+  "ignoredLints": "{\"context_hashes\":[7495447488095144418,6987847139954563336,6004525130877683364,16909813367770936929]}",
   "useWebWorker": true,
   "lintSettings": {
     "ACoupleMore": null,
@@ -275,7 +275,7 @@
     "Likewise": null,
     "LinesOfCode": null,
     "LitotesDirectPositive": null,
-    "LongSentences": null,
+    "LongSentences": false,
     "LookingForwardTo": null,
     "LowHangingFruit": null,
     "MakeDoWith": null,
@@ -519,6 +519,8 @@
     "WroughtIron": null
   },
   "userDictionary": [
+    "NN",
+    "NNs",
     "TLDR",
     "Underfitting",
     "additivity",
