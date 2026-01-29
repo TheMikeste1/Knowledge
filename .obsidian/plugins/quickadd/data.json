@@ -5,14 +5,16 @@
       "name": "Fleeting",
       "type": "Template",
       "command": true,
-      "templatePath": "_Templates/Quick Note.md",
+      "templatePath": "_Templates/Pages/Quick Note.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
       },
       "folder": {
         "enabled": true,
-        "folders": ["QuickNotes"],
+        "folders": [
+          "Quick Notes"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
@@ -61,7 +63,9 @@
               },
               "folder": {
                 "enabled": true,
-                "folders": ["Books"],
+                "folders": [
+                  "Books"
+                ],
                 "chooseWhenCreatingNote": false,
                 "createInSameFolderAsActiveFile": false,
                 "chooseFromSubfolders": false
