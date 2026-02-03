@@ -1,5 +1,5 @@
 {
-  "ignoredLints": "{\"context_hashes\":[6004525130877683364,6987847139954563336,7495447488095144418,16909813367770936929]}",
+  "ignoredLints": "{\"context_hashes\":[6004525130877683364,6987847139954563336,16909813367770936929,7495447488095144418]}",
   "useWebWorker": true,
   "lintSettings": {
     "ACoupleMore": null,
@@ -521,12 +521,15 @@
   "userDictionary": [
     "NN",
     "NNs",
+    "ReLU",
+    "S",
     "TLDR",
     "Underfitting",
     "additivity",
     "aperiodic",
     "combinatorialists",
-    "datapoint"
+    "datapoint",
+    "nonlinearity"
   ],
   "dialect": 0,
   "delay": -1,
