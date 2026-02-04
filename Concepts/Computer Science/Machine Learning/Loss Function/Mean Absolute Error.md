@@ -2,6 +2,8 @@
 type: algorithm
 aliases:
   - MAE
+ml_task_type:
+  - regression
 ---
 *Mean Absolute Error* (*MAE*) calculates the average absolute error for a given prediction. For example, if the model predicted a pizza cost $20 but it actually cost $35, the MAE would be $15.
 $$
@@ -12,3 +14,5 @@ error: list[float]
 mae: float = sum(map(abs, error)) / len(error)
 assert mae >= 0
 ```
+
+Note that since MAE is not differentiable at 0, this function may not work well for [[Gradient Descent]].
