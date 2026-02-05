@@ -1,4 +1,4 @@
 ---
-type: referenec
+type: reference
 ---
 Modules in Lua

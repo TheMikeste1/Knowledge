@@ -1,5 +1,5 @@
 {
-  "ignoredLints": "{\"context_hashes\":[6004525130877683364,6987847139954563336,16909813367770936929,7495447488095144418]}",
+  "ignoredLints": "{\"context_hashes\":[7495447488095144418,6987847139954563336,6004525130877683364,16909813367770936929]}",
   "useWebWorker": true,
   "lintSettings": {
     "ACoupleMore": null,
@@ -522,7 +522,6 @@
     "UpdatePlaceNames": null,
     "Upset": null,
     "Upward": null,
-    "UseGenitive": null,
     "UseTitleCase": null,
     "VerbToAdjective": null,
     "VeryLess": null,
@@ -568,7 +567,9 @@
     "aperiodic",
     "combinatorialists",
     "datapoint",
-    "nonlinearity"
+    "datapoints",
+    "nonlinearity",
+    "stochastically"
   ],
   "dialect": 0,
   "delay": -1,
