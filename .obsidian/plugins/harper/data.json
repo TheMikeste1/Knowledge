@@ -1,5 +1,5 @@
 {
-  "ignoredLints": "{\"context_hashes\":[7495447488095144418,6987847139954563336,6004525130877683364,16909813367770936929]}",
+  "ignoredLints": "{\"context_hashes\":[6987847139954563336,6004525130877683364,16909813367770936929,7495447488095144418,242142578647370179]}",
   "useWebWorker": true,
   "lintSettings": {
     "ACoupleMore": null,
@@ -318,7 +318,7 @@
     "Months": null,
     "Monumentous": null,
     "MootPoint": null,
-    "MoreAdjective": null,
+    "MoreAdjective": false,
     "MoreBetter": null,
     "MostNumber": null,
     "MostOfTheTimes": null,
