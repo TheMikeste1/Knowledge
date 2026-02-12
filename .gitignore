@@ -5,3 +5,4 @@
 !.obsidian/plugins/*/data.json
 
 .obsidian/themes/*/*
+.trash/
