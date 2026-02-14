@@ -24,7 +24,7 @@ aliases:
 - **Often statistical**: Based on density estimation or similarity measures.
 
 ## Examples
-- [[K-means]]
+- [[k-means Clustering]]
 - [[Autoencoder]]
 
 ## Notes / Comments
