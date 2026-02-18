@@ -1,7 +1,7 @@
 ---
 type:
 ---
-A signal is some function $x(t)$ that provides some kind of information. It maps some variable $t$ to a value, such as time to pressure or position to intensity.
+A *signal* is some function $x(t)$ that provides some kind of information. It maps some variable $t$ to a value, such as time to pressure or position to intensity.
 
 Signals can be either continuous or discrete, meaning the signal is in discrete chunks, often due to sampling but not always. For example, sound waves themselves are continuous, but digital audio is discrete because the sound has been sampled at some rate.
 

@@ -7,6 +7,8 @@ aliases:
 ## Definition
 *Supervised learning* involves training a model with labeled data. The goal is the have the model learn how to identify different classes using the provided data or provide an accurate prediction about unseen or future data.
 
+The machine is typically given 10 - 10,000 bits per datapoint.
+
 ## Common Tasks
 * Classification
 * Regression

@@ -7,6 +7,7 @@ aliases:
 ## Definition
 *Reinforcement learning* is a machine learning technique where the model, called an *agent*, learns what to do in an *environment* through rewards (either positive or negative) with the goal to maximize the reward. The learned behavior is called a *policy*.
 
+The machine is typically given only a small amount of data per datapoint, perhaps only a few bits.
 ## Core Components
 * Agent
 * Environment

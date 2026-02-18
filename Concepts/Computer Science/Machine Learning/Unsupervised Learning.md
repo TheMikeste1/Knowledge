@@ -3,10 +3,13 @@ type: principle
 status: draft
 related:
 aliases:
+  - self-supervised learning
+  - predictive learning
 ---
 ## Definition
 *Unsupervised Learning* when a model learns structure, patterns, or representations from unlabeled data, without explicit target outputs or reward signals. This can be used to group or "cluster" data together, or perform other tasks that do not require "classes" of data.
 
+The machine is often given million bits of data per datapoint.
 ## Common Tasks
 * Clustering
 * Dimensionality Reduction

@@ -3,18 +3,23 @@ type: definition
 aliases:
   - max pooling
   - max pool
+related:
+  - "[[Average Pooling]]"
 ---
 *Maximum pooling* is a convolutional layer that simply selects the maximum value in its kernel. For example, with a 2D kernel size of two and a matrix of
 $$
 \begin{bmatrix}
-1 & 0 & 0 & 1 \\
-0 & 2 & 0 & 0
+29 &  15 & 28 & 184 \\
+ 0 & 100 & 70 &  38 \\
+12 &  12 &  7 &   2 \\
+12 &  12 & 45 &   6 \\
 \end{bmatrix}
 $$
 max pooling would output
 $$
 \begin{bmatrix}
-2 & 1
+100 & 184 \\
+ 12 &  45
 \end{bmatrix}
 $$
 
