@@ -11,10 +11,14 @@
 - [ ] AI
 - [ ] Material Design
 - [ ] Reinforcement learning
-  - Genetic Algorithms
+    - Genetic Algorithms
 - [ ] Statistics
 - [ ] Physics
 - [ ] Combinatorics
 - [ ] Geometric Series
 - [ ] Haskell
 - [ ] Information Theory & Entropy
+- [ ] Linux OS
+    -  File descriptors
+    - Drivers
+    - Etc.
