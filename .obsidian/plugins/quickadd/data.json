@@ -56,7 +56,7 @@
               "name": "Book",
               "type": "Template",
               "command": false,
-              "templatePath": "_Templates/Book Info.md",
+              "templatePath": "_Templates/Pages/Book Info.md",
               "fileNameFormat": {
                 "enabled": true,
                 "format": "{{VALUE:BOOK_NAME}} - {{VALUE:AUTHOR_LAST_NAME}}, {{VALUE:AUTHOR_FIRST_NAME}}"
