@@ -1,0 +1,6 @@
+---
+type: pattern
+---
+*Supporting panes* is a [[Canonical Layouts|canonical layout]] organizes content into a primary and secondary pane. The primary pane contains the main content, which the secondary pane provides additional context or supportive information for the main content. This pattern works well in large displays, and the supporting pane can be hidden in the bottom or side panel for medium- or compact-displays.
+
+Jetpack Compose has the [`SupportingPaneScaffold`](https://developer.android.com/reference/kotlin/androidx/compose/material3/adaptive/layout/package-summary#SupportingPaneScaffold(androidx.compose.material3.adaptive.layout.PaneScaffoldDirective,androidx.compose.material3.adaptive.layout.ThreePaneScaffoldValue,kotlin.Function1,kotlin.Function1,androidx.compose.ui.Modifier,kotlin.Function1,kotlin.Function2,androidx.compose.material3.adaptive.layout.PaneExpansionState)) to build a supporting pane. See <https://developer.android.com/develop/ui/compose/layouts/adaptive/build-a-supporting-pane-layout> for instructions on how to use it.

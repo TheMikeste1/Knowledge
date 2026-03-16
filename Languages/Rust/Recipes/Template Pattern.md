@@ -1,5 +1,5 @@
 ---
-tope: recipe
+type: recipe
 concept: "[[Template Pattern]]"
 ---
 ## With [[Strategy Pattern]]
