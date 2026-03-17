@@ -1,5 +1,7 @@
 ---
 type: guide
+references:
+  - https://developer.android.com/topic/architecture/recommendations
 ---
 Android applications should have at least two layers: the [[UI Layer]] and the [[Data Layer]]. The UI layer should display data to the user, and the data layer should control the business logic and controls the application data. Sometimes, it can be beneficial to have a third [[Domain Layer]], which can provide simplified and reusable interactions between the UI and data layer similar to a [[Facade]].
 
@@ -27,5 +29,7 @@ Android [recommends]( https://developer.android.com/topic/architecture#best-prac
 - Types are responsible for their concurrency policy. That is, allow the type to manage its work and threads instead of managing it outside the type. Type type should know best.
 - Persist as much relevant and fresh data as possible. This helps the app work when offline.
 
-#TODO Review https://developer.android.com/topic/architecture/recommendations
-#TODO Review https://developer.android.com/develop/ui/compose/state#state-hoisting
+#TODO Work through https://developer.android.com/courses/pathways/android-architecture
+#TODO Review https://developer.android.com/develop/ui/compose/state
+#TODO Review https://developer.android.com/kotlin/coroutines/coroutines-best-practices
+#TODO Review https://developer.android.com/kotlin/flow
