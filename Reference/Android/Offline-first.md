@@ -1,0 +1,43 @@
+---
+type: principle
+---
+Apps often do not have access to the internet or have spotty connections. In order to continue working well, apps should be designed to be *offline-first*, meaning the can perform "perform all, or a critical subset of its core functionality without access to the internet."[^1] For an app the be considered offline-first, it must
+- Be at least minimally useful without a reliable network connection
+- Provide local data immediately without having to wait for the network
+- Fetch and update data while being conscious of battery and the network. For example, it may be best to fetch large amounts of data only when on WiFi.
+
+The majority of the work for an offline-first app occurs in the [[Data Layer]], specifically the [[Repository]]. The repositories are responsible for syncing reads and writes between [[Datasource|datasources]], at least one of which must not require network access.
+
+When working with multiple datasources, the local datasource should act as the [[Single Source of Truth|SSOT]]. Note this does not mean it needs to be a fully-fleshed-out database: simple files or temporary data may work for some apps. It should be synced with the network datasource, if one exists, when the application is back online.
+
+It is important to note that different datasources will likely have different models. For example, the local source might use SQL, while the network source might use NoSQL. Each schema will require its own dataclasses to interact with the datasource. In these cases, these dataclasses should remain internal to the data layer (or even internal to the repository), and another dataclass combining the two created for interacting with the other layers. [[Extension Method|Extension methods]] can then be used to convert between the different models.
+
+[^1]: https://developer.android.com/topic/architecture/data-layer/offline-first
+
+## Reading
+When reading from a remote datasource, it is often best practice to use [[Exponential Backoff]] until success, cancellation, or reaching a maximum number of retries. Cancellation may be from the user, but it may also be from the network source. For example, if the user is not authorized the app can stop its attempts. Alternatively, requests can be queued until the network is available. [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager) may be useful for this.
+
+## Writing
+When writing to a datasource, the writes should be asynchronous. Additionally, for writes to a remote datasource, there are multiple strategies depending on the nature of the app and the data. An app may make use of one or more of these strategies, depending on the need.
+
+### Online-Only Writes
+For apps where writes are time-sensitive, such as banks, it may be best to only allow writes when the network is available and successful. In these cases, if the write does not succeed, the write should be discarded.
+
+### Queued Writes
+If the data is not time sensitive and the user doesn't need to know about success or failure, *Queued Writes* might be a good strategy. Under this strategy, the write is queued (possibly using a [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager)). If the write is successful, the local datasource is updated. Otherwise, the repository can retry or simply quit. This strategy is good for logging or analytics, where the user doesn't necessarily care about if the data is stored or not.
+
+### Lazy Writes
+Lazy writes are best for data that is critical to the app. Data the is critical to the operation of the app should take this approach to avoid data loss.
+
+This strategy involves writing to the local datasource first, **then** enqueueing the write for the network datasource. Once the write succeeds, handle any conflicts between the local and remote datasources using one of the [[#Conflict Resolution]] strategies.
+
+## Synchronization
+Data between local and remote datasources must be synchronized to ensure both their data is up-to-date. The are a couple strategies apps can use to synchronize data.
+### Pull-Based Synchronization
+#TODO https://developer.android.com/topic/architecture/data-layer/offline-first#synchronization-and
+
+
+## Conflict Resolution
+It is common for a local repository and a remote repository to get out of sync and develop conflicts in its data due to multiple users writing to the same data. These conflicts must be resolved so future updates can be made. There a couple main strategies for this.
+
+#TODO

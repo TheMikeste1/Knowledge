@@ -1,5 +1,5 @@
 {
-  "ignoredLints": "{\"context_hashes\":[7495447488095144418,6004525130877683364,13175139593058675260,6711712242134354113,11581360382436694138,6987847139954563336,9347307788308269020,16909813367770936929,242142578647370179]}",
+  "ignoredLints": "{\"context_hashes\":[6987847139954563336,6711712242134354113,242142578647370179,13175139593058675260,16909813367770936929,6004525130877683364,7495447488095144418,11581360382436694138,9347307788308269020]}",
   "useWebWorker": true,
   "lintSettings": {
     "ACoupleMore": null,
@@ -646,12 +646,14 @@
     "ReLU",
     "S",
     "TLDR",
+    "WiFi",
     "additivity",
     "aperiodic",
     "combinatorialists",
     "datapoint",
     "datapoints",
     "debuggability",
+    "enqueueing",
     "invariance",
     "k-means",
     "nonlinearity",
