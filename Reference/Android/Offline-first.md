@@ -32,12 +32,20 @@ Lazy writes are best for data that is critical to the app. Data the is critical 
 This strategy involves writing to the local datasource first, **then** enqueueing the write for the network datasource. Once the write succeeds, handle any conflicts between the local and remote datasources using one of the [[#Conflict Resolution]] strategies.
 
 ## Synchronization
-Data between local and remote datasources must be synchronized to ensure both their data is up-to-date. The are a couple strategies apps can use to synchronize data.
+Data between local and remote datasources must be synchronized to ensure both their data is up-to-date. There are a couple strategies apps can use to synchronize data, each of which can be used at different points in the app.
 ### Pull-Based Synchronization
-#TODO https://developer.android.com/topic/architecture/data-layer/offline-first#synchronization-and
+Pull-base synchronization involves the app reaching out to the network when required. This might be at the user's request, or when navigating to a specific page. This works best when there are brief or no network interruptions, since longer periods will mean the user will interact with more stale data.
 
+ This technique is easy to implement and has the additional advantage that only the data required will be fetched. However, it may require data to be repeatedly fetched, even if not needed. It may also not scale well if large amounts of data need to be fetched.
+### Push-Based Synchronization
+Push-base synchronization involves seeding a local datasource with an appropriate amount of remote data, then relying on notifications from the server to notify when data has changed. Upon receiving the notification, the app reaches out to the remote source to update its data.
+
+This technique reduces the amount of data the application needs to fetch, since it only updates stale data. It also works well when a strong datamodel exists, such as with relational data models. However, [[#Conflict Resolution]] may be trickier, and not all network data sources support this method natively.
 
 ## Conflict Resolution
-It is common for a local repository and a remote repository to get out of sync and develop conflicts in its data due to multiple users writing to the same data. These conflicts must be resolved so future updates can be made. There a couple main strategies for this.
+It is common for a local repository and a remote repository to get out of sync and develop conflicts in its data due to multiple users writing to the same data. These conflicts must be resolved so future updates can be made, and it naturally means some kind of bookkeeping must occur to track what changes have occurred.
 
-#TODO
+There a couple main strategies for conflict resolution.
+
+### Last Write Wins
+*Last write wins* is a common and easy strategy for conflict resolution. It simply keeps the data from the most recent write. This naturally requires some way of determining how recent a write was, typically by including timestamp metadata with the data.
