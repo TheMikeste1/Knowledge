@@ -28,8 +28,3 @@ Android [recommends]( https://developer.android.com/topic/architecture#best-prac
 - Make each part of the app testable in isolation
 - Types are responsible for their concurrency policy. That is, allow the type to manage its work and threads instead of managing it outside the type. Type type should know best.
 - Persist as much relevant and fresh data as possible. This helps the app work when offline.
-
-#TODO Work through https://developer.android.com/courses/pathways/android-architecture
-#TODO Review https://developer.android.com/develop/ui/compose/state
-#TODO Review https://developer.android.com/kotlin/coroutines/coroutines-best-practices
-#TODO Review https://developer.android.com/kotlin/flow
