@@ -33,7 +33,7 @@ S_\mathrm{action}(a, p) =
   \text{, where } p \text{ is some numeric value for the privilege}
 $$
 $$
-S_\mathrm{interaction}(m, s_\mathrm{read}, s_\mathrm{write}, s_\mathrm{possess}) = 
+S_\mathrm{interaction}(m, s_\mathrm{read}, s_\mathrm{write}, s_\mathrm{possess}) =
   m \times (s_\mathrm{read} + s_\mathrm{write} + s_\mathrm{possess})
 $$
 

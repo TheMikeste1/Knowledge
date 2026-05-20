@@ -27,8 +27,9 @@
         "mode": "default",
         "focus": true
       },
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
     },
     {
       "id": "ea7d7dd1-82af-4351-a154-03b238f62e95",
@@ -78,8 +79,9 @@
                 "mode": "default",
                 "focus": true
               },
-              "fileExistsMode": "Increment the file name",
-              "setFileExistsBehavior": false
+              "fileExistsBehavior": {
+                "kind": "prompt"
+              }
             }
           }
         ]
@@ -92,7 +94,7 @@
   "devMode": false,
   "templateFolderPath": "_Templates",
   "announceUpdates": "all",
-  "version": "2.12.0",
+  "version": "2.12.1",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
@@ -200,6 +202,8 @@
     "migrateFileOpeningSettings": true,
     "setProviderModelDiscoveryMode": true,
     "backfillFileOpeningDefaults": true,
-    "migrateProviderApiKeysToSecretStorage": true
-  }
+    "migrateProviderApiKeysToSecretStorage": true,
+    "consolidateFileExistsBehavior": true
+  },
+  "macros": []
 }
