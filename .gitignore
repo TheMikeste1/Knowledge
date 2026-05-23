@@ -1,7 +1,7 @@
 .obsidian/workspace*
 .obsidian/graph.json
 
-.obsidian/plugins/*/*
+.obsidian/plugins/**
 !.obsidian/plugins/*/data.json
 
 .obsidian/themes/*/*
