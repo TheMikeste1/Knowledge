@@ -13,3 +13,7 @@ Major manufacturers in the FPGA market include:
 - *Lattice Semiconductor*- Offers less expensive FPGAs often used by the open source community
 
 FPGAs are used in many applications, from routing internet traffic and cell phone towers, to assisting with high frequency trading, [[Machine Learning|AI]], and defense applications. FPGAs are well suited to these tasks because they are extremely fast and efficient at processing. FPGAs can be easily reprogrammed with redundancies, making them effective in space and other rad-high environments.
+
+![When to use FPGAs vs microcontrollers vs ASICs](https://nandland.com/wp-content/uploads/2023/10/fpga-vs-microcontroller-vs-asic.png)
+
+FPGAs are usually programmed using either [[VHDL]] or [[Verilog]].
