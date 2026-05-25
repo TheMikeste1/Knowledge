@@ -37,3 +37,6 @@ Along the way, we will need to learn how to write firmware. That means we need t
 - [NAND Land](https://nandland.com)- FPGA, VHDL, and Verilog tutorials
 - [Free Range VHDL](https://github.com/fabriziotappero/Free-Range-VHDL-book)- Free VHDL book
 - [VHDL Whiz](https://vhdlwhiz.com)- Advanced VHDL tutorials
+- [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page)- Leetcode for Verilog
+- [VHDL Web](https://vhdlweb.com/)- Exercises for VHDL
+- [VHDL Workshop](https://www.vhdl-online.de/vhdl_workshop/start)- Exercises for VHDL
