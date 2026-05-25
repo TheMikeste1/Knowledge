@@ -20,7 +20,8 @@ architecture behave of led_blink_tb is
   component led_blink is
     port (
       i_clock     : in    std_logic;
-      i_reset     : in    std_logic
+      i_reset     : in    std_logic;
+      o_blink     : out   std_logic
     );
   end component led_blink;
 
@@ -30,7 +31,8 @@ begin
   uut : component led_blink
     port map (
       i_clock     => r_clock,
-      i_reset     => '0' -- We aren't using i_reset, so we'll ground it
+      i_reset     => '0' -- We aren't using i_reset, so we'll ground it. Only applies to inputs.
+      o_blink     => open -- We aren't reading o_blink, so we'll leave it open to being optimized out. Only applies to outputs.
     );
 -- . . .
 ```
