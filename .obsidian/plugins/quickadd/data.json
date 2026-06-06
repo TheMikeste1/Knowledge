@@ -94,7 +94,7 @@
   "devMode": false,
   "templateFolderPath": "_Templates",
   "announceUpdates": "all",
-  "version": "2.12.1",
+  "version": "2.12.3",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
@@ -203,7 +203,8 @@
     "setProviderModelDiscoveryMode": true,
     "backfillFileOpeningDefaults": true,
     "migrateProviderApiKeysToSecretStorage": true,
-    "consolidateFileExistsBehavior": true
+    "consolidateFileExistsBehavior": true,
+    "repairTemplateFileExistsBehavior": true
   },
   "macros": []
 }
