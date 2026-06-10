@@ -1,0 +1,3 @@
+A *T flip-flop*, or *Toggle flip-flop*, stores one bit of data. It has two inputs $T$ and $CLK$, and outputs $Q$ and optionally $\bar Q$. When $T$ is high, $Q$ will be inverted on a single edge of $CLK$.
+
+A T flip-flop is not commonly found as a pure component in circuits. Though it can be made from scratch, it is common to wire up a [[D Flip-Flop]] or [[JK Flip-Flop]] to act as a T flip-flop instead.
