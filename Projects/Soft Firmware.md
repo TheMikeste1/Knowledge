@@ -34,9 +34,9 @@ With this, we need to answer the following questions:
 - What would a PR look like?
 
 Along the way, we will need to learn how to write firmware. That means we need to identify tutorials and answer these questions through experimentation as we learn.
-- [NAND Land](https://nandland.com)- FPGA, VHDL, and Verilog tutorials
-- [Free Range VHDL](https://github.com/fabriziotappero/Free-Range-VHDL-book)- Free VHDL book
-- [VHDL Whiz](https://vhdlwhiz.com)- Advanced VHDL tutorials
-- [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page)- Leetcode for Verilog
-- [VHDL Web](https://vhdlweb.com/)- Exercises for VHDL
-- [VHDL Workshop](https://www.vhdl-online.de/vhdl_workshop/start)- Exercises for VHDL
+- [x] [NAND Land](https://nandland.com)- FPGA, VHDL, and Verilog tutorials
+- [x] [Free Range VHDL](https://github.com/fabriziotappero/Free-Range-VHDL-book)- Free VHDL book
+- [ ] [VHDL Whiz](https://vhdlwhiz.com)- Advanced VHDL tutorials
+- [ ] [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page)- Leetcode for Verilog
+- [x] [VHDL Web](https://vhdlweb.com/)- Exercises for VHDL
+- [x] [VHDL Workshop](https://www.vhdl-online.de/vhdl_workshop/start)- Exercises for VHDL
