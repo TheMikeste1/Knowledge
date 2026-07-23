@@ -18,4 +18,8 @@ module.exports = async (params) => {
   params.variables["AUTHOR_FIRST_NAME"] = authorFirstName;
   params.variables["AUTHOR_LAST_NAME"] = authorLastName;
   params.variables["DOCUMENT_TYPE"] = documentType;
+
+  params.variables["PATH_SAFE_BOOK_NAME"] = bookName.replace(/[\\/*?"<>]/g, '').replace(/[:|]/g, '-');
+  params.variables["PATH_SAFE_AUTHOR_FIRST_NAME"] = authorFirstName.replace(/[\\/*?"<>]/g, '').replace(/[:|]/g, '-');
+  params.variables["PATH_SAFE_AUTHOR_LAST_NAME"] = authorLastName.replace(/[\\/*?"<>]/g, '').replace(/[:|]/g, '-');
 };

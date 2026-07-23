@@ -60,7 +60,7 @@
               "templatePath": "_Templates/Pages/Book Info.md",
               "fileNameFormat": {
                 "enabled": true,
-                "format": "{{VALUE:BOOK_NAME}} - {{VALUE:AUTHOR_LAST_NAME}}, {{VALUE:AUTHOR_FIRST_NAME}}"
+                "format": "{{VALUE:PATH_SAFE_BOOK_NAME}} - {{VALUE:PATH_SAFE_AUTHOR_LAST_NAME}}, {{VALUE:PATH_SAFE_AUTHOR_FIRST_NAME}}"
               },
               "folder": {
                 "enabled": true,
