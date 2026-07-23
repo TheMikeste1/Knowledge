@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder.startsWith("Books")
+    - file.folder == "Books"
     - '!file.name.startsWith("~")'
 formulas:
   Title: link(file, file.name.split(" - ").slice(0, -1).join(" - "))
