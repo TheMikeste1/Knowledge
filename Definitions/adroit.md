@@ -1,0 +1,1 @@
+Clever, skillful, or resourceful.
