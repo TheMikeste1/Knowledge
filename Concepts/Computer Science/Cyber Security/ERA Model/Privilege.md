@@ -13,3 +13,5 @@ The ERA model recognizes five levels of privilege:
 5. **Global**. The agent has global access to all components in the system. ^66d59d
 
 Privilege is determined on a per-[[Actions|action]] basis. For example, a user might be able to read any script in the system, but not be able to execute any. This would mean the user has [[#^66d59d|global]] [[Actions#^66b87c|read]] privilege, but no (or [[#^49d7fb|none]]) [[Actions#^56ffbc|possess]] privilege.
+
+#TODO: Honestly, this feels a little over-done. I'm thinking a simple "Yes/No" might actually work better?
