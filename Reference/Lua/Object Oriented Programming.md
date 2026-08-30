@@ -52,23 +52,31 @@ end
 
 `self.__index` appears to be similar to Python's `__getattr__` method in that it serves as a fallback if the table does not have the field or method requested. `__index` can also be a function instead of a table to allow dynamic calculations. By serving as the index, `Account` has effectively become the parent of `o`.
 
+Note the `__index` can also be set on the line after the class's declaration, which removes a redundant assign in `new`:
+```lua
+local Account = {
+    -- . . .
+}
+Account.__index = Account
+```
+
 > [!NOTE]
 > We can also override methods such as `__add` through the metatable.
 
 Interestingly, since `o` doesn't start with a balance, `o.balance` will return `Account`'s balance. If balance is subsequently assigned, it will now be on `o`, effectively allowing `o` to inherit default values for fields.
 
-> [!WARNING]
-> `o` will also inherit tables and other datatypes from `Account`. This means any mutations against the default list will apply to all instances. Consider the example below.
+> [!WARNING] Mutable Defaults are Dangerous!
+> `o` will also inherit tables and other datatypes from `Account`. This means any mutations against default tables will apply to all instances, similar to using default lists in Python functions. Consider the example below:
 >
 > ```lua
-> Students = {
+> local Students = {
 >   names = {},
 > }
+> Students.__index = Students
 >
 > function Students:new(o)
 >   o = o or {}
 >   setmetatable(o, self)
->   self.__index = self
 >   return o
 > end
 >
@@ -79,6 +87,40 @@ Interestingly, since `o` doesn't start with a balance, `o.balance` will return `
 > ```
 >
 > As such, `table`s and other similar objects should be copied and assigned as part of `new` instead of relying on the base instance.
+>
+> Alternatively, declare the defaults separately and assign defaults as needed:
+> ```lua
+> -- We have to do some typing magic to get LSPs to recognize both the fields and the methods
+> ---@private
+> ---@class Students._Fields
+> local defaults = {
+>    ---@field nondefault string
+>    names = {}
+> }
+> ---@class Students: Students._Fields
+> local Students = {}
+> Students.__index = Students
+>
+> function Students.new(o, nondefault)
+>   o = o or {}
+>   nondefault = nondefault or o.nondefault
+>   assert(nondefault ~= nil, "Students.new: 'nondefault' is required!")
+>
+>   local self = setmetatable({}, Students)
+>   for k, v in pairs(defaults) do
+>     if o[k] ~= nil then
+>       self[k] = o[k]
+>     elseif type(v) == "table" then
+>       self[k] = deepcopy(v) -- Might need to write this
+>     else
+>       self[k] = v
+>     end
+>   end
+>
+>   self.nondefault = nondefault
+>   return self
+> end
+> ```
 
 ^cff43c
 
@@ -101,7 +143,7 @@ end
 ```
 
 > [!WARNING]
-> Be careful when setting defaults with inheritance! for mutable objects! Since `Account.new` sets the index, any changes made *after* the `Account.new` call will use `SpecialAccount` as the index. This may cause unintended problems when dealing with [[#^cff43c|mutable types]]:
+> Be careful when setting defaults with inheritance for mutable objects! Since `Account.new` sets the index, any changes made *after* the `Account.new` call will use `SpecialAccount` as the index. This may cause unintended problems when dealing with [[#^cff43c|mutable types]]:
 >
 > Don't do this:
 >
@@ -112,7 +154,7 @@ end
 >
 > function JointAccount:new(o)
 >     Account.new(self, o)
->     o.additional_owners = o.additional_owners or {} -- Will always use `o.additional_owners` because we're the index. Worse, the referred-to `additional_owners` is the prototype's! This will cause all instances to share the same table.
+>     o.additional_owners = o.additional_owners or {} -- Will always use `o.additional_owners` because it was already set as the index in Account.new. Worse, the referred-to `additional_owners` is the prototype's default! This will cause all instances to share the same table.
 >     return o
 > end
 > ```
@@ -126,7 +168,7 @@ end
 >
 > function JointAccount:new(o)
 >     o = o or {}
->     o.additional_owners = o.additional_owners or {} -- Skip the problem entirely, though it technically causes you to construct your classes in reverse order
+>     o.additional_owners = o.additional_owners or {} -- Skip the problem entirely since `o` is not yet the index, though it technically causes you to construct your classes in reverse order
 >     Account.new(self, o)
 >     return o
 > end
