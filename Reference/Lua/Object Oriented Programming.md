@@ -126,10 +126,11 @@ Interestingly, since `o` doesn't start with a balance, `o.balance` will return `
 
 ## Inheritance and overriding methods
 
-Inheritance in Lua is trivia. Simply create a `new` instance of the parent class:
+Inheritance in Lua is trivia. Simply create set the metatable to use `Account` as the index:
 
 ```lua
-SpecialAccount = Account:new()
+SpecialAccount = setmetatable({}, { __index = Account })
+SpecialAccount.__index = SpecialAccount
 ```
 
 Now, when `SpecialAccount:new` is called, `self` refers to `SpecialAccount`, meaning we got `new` for free. If `new` needs to be changed, it can be done like so:
