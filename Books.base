@@ -72,7 +72,7 @@ views:
     columnSize:
       formula.Title: 150
       note.type: 60
-      note.genre: 200
+      note.genre: 255
       note.short_description: 470
       note.date_published: 110
       note.author: 128
