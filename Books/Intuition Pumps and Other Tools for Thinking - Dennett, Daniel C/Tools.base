@@ -1,0 +1,16 @@
+---
+properties:
+  note.thinking_tool_type:
+    displayName: Tool Type
+views:
+  - type: table
+    name: All Tools
+    filters:
+      and:
+        - file.path.contains("Intuition Pumps and Other Tools for Thinking - Dennett,
+          Daniel C")
+        - '!thinking_tool_type.isEmpty()'
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order: [file.name, thinking_tool_type]
