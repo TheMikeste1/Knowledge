@@ -1,3 +1,6 @@
+---
+thinking_tool_type: tool
+---
 ## Thoughts
 - A deepity may seem more or less true and more or less obvious at different times, possible even different rereads in the same moment
 - Note this can also mean an "idea masquerading as a Truth to elevate the speaker" [p. 56 footnote], in which case "deepity" is more of a sarcastic insult

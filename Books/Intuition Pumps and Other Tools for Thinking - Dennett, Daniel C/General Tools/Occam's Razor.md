@@ -1,3 +1,6 @@
+---
+thinking_tool_type: tool
+---
 ## Thoughts
 - A.k.a. "lex parsimoniae" [p. 38]
 - Keeps things as simple as possible

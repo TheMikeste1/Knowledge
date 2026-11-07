@@ -1,3 +1,6 @@
+---
+thinking_tool_type: antitool
+---
 ## Thoughts
 - This is, in a sense, an abuse of [[Occam's Razor]].
 - Sometimes the absence of a fact is only noticeable by experts

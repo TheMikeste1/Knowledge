@@ -1,3 +1,6 @@
+---
+thinking_tool_type: tool
+---
 ## Thoughts
 - Richard Feynman said we must publish both good and bad results [p. 19]
 - Learn history to understand past (tempting) mistakes [p. 19]

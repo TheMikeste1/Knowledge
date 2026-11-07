@@ -1,3 +1,6 @@
+---
+thinking_tool_type: tool
+---
 ## Thoughts
 - Reductio ad absurdum: find preposterous implications or contradictions [p. 29]
     - If you can do this, the premise needs to be reworked or thrown out

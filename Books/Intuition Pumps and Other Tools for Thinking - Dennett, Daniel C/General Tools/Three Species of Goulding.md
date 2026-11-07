@@ -1,3 +1,6 @@
+---
+thinking_tool_type: antitool
+---
 ## Thoughts
 ### Rathering
 - A way of sliding past a false dichotomy [p. 48]
@@ -9,7 +12,7 @@
     - Some Ratherings don't use the word "rather"
 ### Others
 - The other two species, piling-on [p. 50] and the Gould Two-step [p. 50] are less interesting
-- Piling-on involves unspecifically refuting something 
+- Piling-on involves unspecifically refuting something
     - That is, refuting something in such a way that you don't know what they're refuting. E.g., "They say the Earth is flat because water is purple, but this is not true!" What is not true? That the Earth is flat? That water is purple? Both? It's not specific.
     - Might be indirectly targeting multiple ideas such that you don't know which one(s) they're trying to refute
 - The Gould Two-step is creating a [[Strawman]], then later misinterpreting or misciting the originator

@@ -1,3 +1,6 @@
+---
+thinking_tool_type: tool
+---
 ## Thoughts
 - Forcefully point out obvious contradictions [p. 33]
 - Carefully expose somewhat hidden contradictions, then attack them [p. 33]

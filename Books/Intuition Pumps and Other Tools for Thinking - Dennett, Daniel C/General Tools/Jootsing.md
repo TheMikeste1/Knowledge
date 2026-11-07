@@ -1,3 +1,6 @@
+---
+thinking_tool_type: tool
+---
 ## Thoughts
 - "Jumping Out Of The System" [p. 45]
     - Originally by Doug Hofstadter

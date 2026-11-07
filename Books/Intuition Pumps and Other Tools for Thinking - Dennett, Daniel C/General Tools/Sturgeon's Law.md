@@ -1,3 +1,6 @@
+---
+thinking_tool_type: tool
+---
 ## Thoughts
 - I generally disagree with [[#^sturgeons-law]].
     - Depends on definition of "crap."

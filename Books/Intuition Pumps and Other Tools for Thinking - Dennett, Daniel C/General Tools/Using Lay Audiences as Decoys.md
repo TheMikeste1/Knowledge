@@ -1,3 +1,6 @@
+---
+thinking_tool_type: tool
+---
 ## Thoughts
 - People tend to under-explain to experts [p. 42]
     - They expect the experts are already familiar with the topic
