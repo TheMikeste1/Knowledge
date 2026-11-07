@@ -1,4 +1,5 @@
----
+formulas:
+  Category: file.folder.split('/')[2]
 properties:
   note.thinking_tool_type:
     displayName: Tool Type
@@ -7,10 +8,38 @@ views:
     name: All Tools
     filters:
       and:
-        - file.path.contains("Intuition Pumps and Other Tools for Thinking - Dennett,
-          Daniel C")
-        - '!thinking_tool_type.isEmpty()'
+        - file.path.contains("Intuition Pumps and Other Tools for Thinking - Dennett, Daniel C")
+        - "!thinking_tool_type.isEmpty()"
     groupBy:
-      property: file.folder
+      property: formula.Category
       direction: ASC
-    order: [file.name, thinking_tool_type]
+    order:
+      - file.name
+      - thinking_tool_type
+  - type: cards
+    name: Tools
+    filters:
+      and:
+        - file.path.contains("Intuition Pumps and Other Tools for Thinking - Dennett, Daniel C")
+        - thinking_tool_type == "tool"
+    order:
+      - file.name
+      - formula.Category
+  - type: cards
+    name: Intuition Pumps
+    filters:
+      and:
+        - file.path.contains("Intuition Pumps and Other Tools for Thinking - Dennett, Daniel C")
+        - thinking_tool_type == "intuition pump"
+    order:
+      - file.name
+      - formula.Category
+  - type: cards
+    name: Antitools
+    filters:
+      and:
+        - file.path.contains("Intuition Pumps and Other Tools for Thinking - Dennett, Daniel C")
+        - thinking_tool_type == "antitool"
+    order:
+      - file.name
+      - formula.Category
